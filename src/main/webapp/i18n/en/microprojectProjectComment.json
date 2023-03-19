@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectComment": {
+      "home": {
+        "title": "Project Comments",
+        "createLabel": "Create a new Project Comment",
+        "createOrEditLabel": "Create or edit a Project Comment",
+        "notFound": "No Project Comments found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Comment {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Comment"
+      },
+      "projectId": "Project Id",
+      "userId": "User Id",
+      "userName": "User Name",
+      "userEmail": "User Email",
+      "content": "Content"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectComment": {
+      "created": "A new Project Comment is created with identifier {{ param }}",
+      "updated": "A Project Comment is updated with identifier {{ param }}",
+      "deleted": "A Project Comment is deleted with identifier {{ param }}"
+    }
+  }
+}

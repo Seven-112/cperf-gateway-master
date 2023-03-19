@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectItemCheckJustification": {
+      "home": {
+        "title": "Project Item Check Justifications",
+        "createLabel": "Create a new Project Item Check Justification",
+        "createOrEditLabel": "Create or edit a Project Item Check Justification",
+        "notFound": "No Project Item Check Justifications found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Item Check Justification {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Item Check Justification"
+      },
+      "checked": "Checked",
+      "taskItemId": "Task Item Id",
+      "justification": "Justification",
+      "dateAndTime": "Date And Time"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectItemCheckJustification": {
+      "created": "A new Project Item Check Justification is created with identifier {{ param }}",
+      "updated": "A Project Item Check Justification is updated with identifier {{ param }}",
+      "deleted": "A Project Item Check Justification is deleted with identifier {{ param }}"
+    }
+  }
+}

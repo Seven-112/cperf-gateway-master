@@ -1,0 +1,23 @@
+{
+  "microgatewayApp": {
+    "fonction": {
+      "home": {
+        "title": "Postes",
+        "createLabel": "Créer un nouveau poste",
+        "createOrEditLabel": "Créer ou éditer un poste",
+        "notFound": "Aucun poste trouvé"
+      },
+      "created": "Un nouveau poste a été créé avec l'identifiant {{ param }}",
+      "updated": "Le poste avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le poste avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le poste {{ id }} ?"
+      },
+      "detail": {
+        "title": "Poste"
+      },
+      "name": "Nom",
+      "description": "Description"
+    }
+  }
+}

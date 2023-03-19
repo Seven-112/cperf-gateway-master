@@ -1,0 +1,25 @@
+{
+  "microgatewayApp": {
+    "publicHoliday": {
+      "home": {
+        "title": "Holidays",
+        "createLabel": "Create a new holiday",
+        "createOrEditLabel": "Create or edit a holiday",
+        "notFound": "No Public Holidays found"
+      },
+      "created": "A new holiday is created with identifier {{ param }}",
+      "updated": "A holiday is updated with identifier {{ param }}",
+      "deleted": "A holiday is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete holiday {{ id }}?"
+      },
+      "detail": {
+        "title": "Holiday"
+      },
+      "name": "Name",
+      "ofDate": "Of Date",
+      "description": "holidays",
+      "holidaysOfMonth": "Holidays of this month"
+    }
+  }
+}

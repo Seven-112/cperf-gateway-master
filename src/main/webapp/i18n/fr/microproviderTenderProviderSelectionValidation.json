@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderProviderSelectionValidation": {
+      "home": {
+        "title": "Validation de la sélection",
+        "createLabel": "Créer une validation de la sélection",
+        "createOrEditLabel": "Créer ou éditer une validation de la sélection",
+        "notFound": "Aucune validation de la sélection trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la validation de la sélection{{ id }} ?"
+      },
+      "detail": {
+        "title": "Validation de la sélection"
+      },
+      "validatorId": "Validateur",
+      "approved": "Approbation",
+      "justification": "Justification",
+      "selection": "Séléction"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderProviderSelectionValidation": {
+      "created": "Une nouvelle validation de la sélection a été créé avec l'identifiant {{ param }}",
+      "updated": "La Validation de la sélection avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La Validation de la sélection avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

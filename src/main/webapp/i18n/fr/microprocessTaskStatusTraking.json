@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskStatusTraking": {
+      "home": {
+        "title": "Logs des tâches",
+        "createLabel": "Créer un nouveau log",
+        "createOrEditLabel": "Créer ou éditer un log",
+        "notFound": "Aucun log trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le log {{ id }} ?"
+      },
+      "detail": {
+        "title": "Logs de la tâche"
+      },
+      "taskId": "Task Id",
+      "status": "Statut",
+      "tracingAt": "Date et heure",
+      "justification": "Justification",
+      "userId": "Acteur",
+      "execeed": "délai expiré",
+      "perfIndicator": "Indicateur de Performance"
+    }
+  },
+  "processApp": {
+    "microprocessTaskStatusTraking": {
+      "created": "Un nouveau log a été créé avec l'identifiant {{ param }}",
+      "updated": "Le log avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le log avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+id;name;evalutation_unity;valid
+1;A long terme;YEAR;true
+2;A court terme trimestriel;NOTHING;true
+3;A court terme;MONTH;true
+4;Ponctuel;NOTHING;false
+5;Régulier;MONTH;true

@@ -1,0 +1,34 @@
+{
+  "microgatewayApp": {
+    "indicator": {
+      "home": {
+        "title": "Indicators",
+        "createLabel": "Create a new Indicator",
+        "createOrEditLabel": "Create or edit a Indicator",
+        "notFound": "No Indicators found"
+      },
+      "created": "A new Indicator is created with identifier {{ param }}",
+      "updated": "A Indicator is updated with identifier {{ param }}",
+      "deleted": "A Indicator is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Indicator {{ id }}?"
+      },
+      "detail": {
+        "title": "Indicator"
+      },
+      "expectedResultNumber": "Expected Result Number",
+      "resultUnity": "Result Unity",
+      "label": "Label",
+      "question": "Question",
+      "resultEditableByActor": "Result Editable By Actor",
+      "numberResult": "Number Result",
+      "percentResult": "Percent Result",
+      "resultAppreciation": "Result Appreciation",
+      "averagePercentage": "Average Percentage",
+      "ponderation": "Ponderation",
+      "typeindicator": "Typeindicator",
+      "objectif": "Objectif",
+      "parent": "Parent"
+    }
+  }
+}

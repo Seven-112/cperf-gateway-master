@@ -1,0 +1,257 @@
+import React from 'react';
+import { Switch } from 'react-router-dom';
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
+
+import Department from './department/custom';
+import MshzFile from './microfilemanager/mshz-file';
+import Process from './microprocess/process';
+import Task from './microprocess/task';
+import InstanceRoot from './microprocess/process/instance-root';
+import Employee from './employee';
+import CondNode from './microprocess/cond-node';
+import EdgeInfo from './microprocess/edge-info';
+import WorkCalender from './work-calender';
+import PublicHoliday from './public-holiday';
+import Justification from './microprocess/justification';
+import UserExtra from './user-extra';
+import Procedure from './microprocess/procedure';
+import TypeObjectif from './type-objectif';
+import Typeindicator from './typeindicator';
+import Fonction from './fonction';
+import Objectif from './objectif';
+import Indicator from './indicator';
+import ModelEntity from './model-entity';
+import Privilege from './privilege';
+import Taskfile from './microprocess/taskfile';
+import TaskUser from './microprocess/task-user';
+import TaskValidationControl from './microprocess/task-validation-control';
+import Risk from './microrisque/risk';
+import RiskType from './microrisque/risk-type';
+import ControlType from './microrisque/control-type/custom/control-type';
+import ControlMaturity from './microrisque/control-maturity';
+import Control from './microrisque/control';
+import Notification from './notification';
+import PartenerCategory from './micropartener/partener-category';
+import Field from './micropartener/field';
+import Partener from './micropartener/partener';
+import PartenerField from './micropartener/partener-field';
+import Tender from './microprovider/tender';
+import TenderDoc from './microprovider/tender-doc';
+import TenderAnswer from './microprovider/tender-answer';
+import TenderFile from './microprovider/tender-file';
+import TenderAnswerDoc from './microprovider/tender-answer-doc';
+import EvaluationCriteria from './micropartener/evaluation-criteria';
+import PartenerCategoryEvaluator from './micropartener/partener-category-evaluator';
+import ProviderEvaluation from './microprovider/provider-evaluation';
+import PartenerCategoryValidator from './micropartener/partener-category-validator';
+import TenderProviderSelection from './microprovider/tender-provider-selection';
+import TenderProviderSelectionValidation from './microprovider/tender-provider-selection-validation';
+import TenderAnswerExecution from './microprovider/tender-answer-execution';
+import ExecutionValidation from './microprovider/execution-validation';
+import ExecutionValidationFile from './microprovider/execution-validation-file';
+import TenderAnswerExecutionFile from './microprovider/tender-answer-execution-file';
+import TenderExecutionEvaluation from './microprovider/tender-execution-evaluation';
+import PartenerFieldFile from './micropartener/partener-field-file';
+import ProviderExpedition from './microprovider/provider-expedition/custom/provider-expedition';
+import DynamicField from './dynamic-field';
+import TenderAnswerField from './microprovider/tender-answer-field';
+import ProviderExecutionAverage from './microprovider/provider-execution-average';
+import TaskStatusTraking from './microprocess/task-status-traking';
+import TaskStatusTrakingFile from './microprocess/task-status-traking-file';
+import ProcessCategory from './microprocess/process-category';
+import Query from './qmanager/query';
+import QueryUser from './qmanager/query-user';
+import QueryField from './qmanager/query-field';
+import QueryFieldResponse from './qmanager/query-field-response';
+import QueryFieldResponseFile from './qmanager/query-field-response-file';
+import QueryUserValidator from './qmanager/query-user-validator';
+import QueryClientType from './qmanager/query-client-type';
+import QueryClient from './qmanager/query-client';
+import QCategory from './qmanager/q-category';
+import QueryFile from './qmanager/query-file';
+import QueryInstance from './qmanager/query-instance';
+import QueryInstanceValidation from './qmanager/query-instance-validation';
+import QueryInstanceValidationFile from './qmanager/query-instance-validation-file';
+import AgendaEvent from './microagenda/agenda-event';
+import EventFile from './microagenda/event-file';
+import EventParticipant from './microagenda/event-participant';
+import EventExeption from './microagenda/event-exeption';
+import EventTrigger from './microprocess/event-trigger';
+import TaskItem from './microprocess/task-item';
+import ItemCheckJustificationFile from './microprocess/item-check-justification-file';
+import ItemCheckJustification from './microprocess/item-check-justification';
+import TodoList from './todolist/index';
+import ProjectEdgeInfo from './microproject/project-edge-info';
+import ProjectEventTrigger from './microproject/project-event-trigger';
+import ProjectItemCheckJustification from './microproject/project-item-check-justification';
+import ProjectItemCheckJustificationFile from './microproject/project-item-check-justification-file';
+import ProjectPublicHoliday from './microproject/project-public-holiday';
+import ProjectTask from './microproject/project-task';
+import ProjectTaskFile from './microproject/project-task-file';
+import ProjectTaskItem from './microproject/project-task-item';
+import ProjectTaskStatusTraking from './microproject/project-task-status-traking';
+import ProjectTaskStatusTrakingFile from './microproject/project-task-status-traking-file';
+import ProjectTaskSubmission from './microproject/project-task-submission';
+import ProjectTaskUser from './microproject/project-task-user';
+import ProjectTaskValidationControl from './microproject/project-task-validation-control';
+import ProjectCategory from './microproject/project-category';
+import ProjectCalendar from './microproject/project-calendar';
+import ProjectCondNode from './microproject/project-cond-node';
+import Project from './microproject/project';
+import ProjectFile from './microproject/project-file';
+import ProjectComment from './microproject/project-comment';
+import ProjectCommentFile from './microproject/project-comment-file';
+import TenderProvider from './microprovider/tender-provider';
+import Equipement from './microstock/equipement';
+import Engeneering from './microstock/engeneering';
+import Consommable from './microstock/consommable';
+import Changement from './microstock/changement';
+import Approvisionnement from './microstock/approvisionnement';
+import ProcessCategoryUser from './microprocess/process-category-user';
+import UserFile from './user-file';
+import Audit from './microrisque/audit';
+import AuditUser from './microrisque/audit-user';
+import AuditStatusTraking from './microrisque/audit-status-traking';
+import AuditStatusTrakingFile from './microrisque/audit-status-traking-file';
+import AuditRecommendationFile from './microrisque/audit-recommendation-file';
+import AuditRecommendation from './microrisque/audit-recommendation';
+import AuditCycle from './microrisque/audit-cycle';
+import AuditRecomUser from './microrisque/audit-recom-user';
+import ProjectStartableTask from './microproject/project-startable-task';
+import QPonctualTaskInfo from './qmanager/q-ponctual-task-info';
+import AuditEventTrigger from './microrisque/audit-event-trigger';
+import KPI from './microprocess/kpi';
+/* jhipster-needle-add-route-import - JHipster will add routes here */
+
+const Routes = ({ match }) => (
+  <div>
+    <Switch>
+      {/* prettier-ignore */}
+      <ErrorBoundaryRoute path={`${match.url}department`} component={Department} />
+      <ErrorBoundaryRoute path={`${match.url}employee`} component={Employee} />
+      <ErrorBoundaryRoute path={`${match.url}mshz-file`} component={MshzFile} />
+      <ErrorBoundaryRoute path={`${match.url}process`} component={Process} />
+      <ErrorBoundaryRoute path={`${match.url}instance`} component={InstanceRoot} />
+      <ErrorBoundaryRoute path={`${match.url}task`} component={Task} />
+      <ErrorBoundaryRoute path={`${match.url}cond-node`} component={CondNode} />
+      <ErrorBoundaryRoute path={`${match.url}edge-info`} component={EdgeInfo} />
+      <ErrorBoundaryRoute path={`${match.url}work-calender`} component={WorkCalender} />
+      <ErrorBoundaryRoute path={`${match.url}public-holiday`} component={PublicHoliday} />
+      <ErrorBoundaryRoute path={`${match.url}justification`} component={Justification} />
+      <ErrorBoundaryRoute path={`${match.url}user-extra`} component={UserExtra} />
+      <ErrorBoundaryRoute path={`${match.url}procedure`} component={Procedure} />
+      <ErrorBoundaryRoute path={`${match.url}typeindicator`} component={Typeindicator} />
+      <ErrorBoundaryRoute path={`${match.url}type-objectif`} component={TypeObjectif} />
+      <ErrorBoundaryRoute path={`${match.url}fonction`} component={Fonction} />
+      <ErrorBoundaryRoute path={`${match.url}objectif`} component={Objectif} />
+      <ErrorBoundaryRoute path={`${match.url}indicator`} component={Indicator} />
+      <ErrorBoundaryRoute path={`${match.url}notification`} component={Notification} />
+      <ErrorBoundaryRoute path={`${match.url}model-entity`} component={ModelEntity} />
+      <ErrorBoundaryRoute path={`${match.url}privilege`} component={Privilege} />
+      <ErrorBoundaryRoute path={`${match.url}taskfile`} component={Taskfile} />
+      <ErrorBoundaryRoute path={`${match.url}task-user`} component={TaskUser} />
+      <ErrorBoundaryRoute path={`${match.url}task-validation-control`} component={TaskValidationControl} />
+      <ErrorBoundaryRoute path={`${match.url}risk`} component={Risk} />
+      <ErrorBoundaryRoute path={`${match.url}risk-type`} component={RiskType} />
+      <ErrorBoundaryRoute path={`${match.url}control-type`} component={ControlType} />
+      <ErrorBoundaryRoute path={`${match.url}control-maturity`} component={ControlMaturity} />
+      <ErrorBoundaryRoute path={`${match.url}control`} component={Control} />
+      <ErrorBoundaryRoute path={`${match.url}partener-category`} component={PartenerCategory} />
+      <ErrorBoundaryRoute path={`${match.url}field`} component={Field} />
+      <ErrorBoundaryRoute path={`${match.url}partener`} component={Partener} />
+      <ErrorBoundaryRoute path={`${match.url}partener-field`} component={PartenerField} />
+      <ErrorBoundaryRoute path={`${match.url}tender`} component={Tender} />
+      <ErrorBoundaryRoute path={`${match.url}tender-doc`} component={TenderDoc} />
+      <ErrorBoundaryRoute path={`${match.url}tender-answer`} component={TenderAnswer} />
+      <ErrorBoundaryRoute path={`${match.url}tender-file`} component={TenderFile} />
+      <ErrorBoundaryRoute path={`${match.url}tender-answer-doc`} component={TenderAnswerDoc} />
+      <ErrorBoundaryRoute path={`${match.url}evaluation-criteria`} component={EvaluationCriteria} />
+      <ErrorBoundaryRoute path={`${match.url}partener-category-evaluator`} component={PartenerCategoryEvaluator} />
+      <ErrorBoundaryRoute path={`${match.url}provider-evaluation`} component={ProviderEvaluation} />
+      <ErrorBoundaryRoute path={`${match.url}partener-category-validator`} component={PartenerCategoryValidator} />
+      <ErrorBoundaryRoute path={`${match.url}tender-provider-selection`} component={TenderProviderSelection} />
+      <ErrorBoundaryRoute path={`${match.url}tender-provider-selection-validation`} component={TenderProviderSelectionValidation} />
+      <ErrorBoundaryRoute path={`${match.url}tender-answer-execution`} component={TenderAnswerExecution} />
+      <ErrorBoundaryRoute path={`${match.url}execution-validation`} component={ExecutionValidation} />
+      <ErrorBoundaryRoute path={`${match.url}execution-validation-file`} component={ExecutionValidationFile} />
+      <ErrorBoundaryRoute path={`${match.url}tender-answer-execution-file`} component={TenderAnswerExecutionFile} />
+      <ErrorBoundaryRoute path={`${match.url}tender-execution-evaluation`} component={TenderExecutionEvaluation} />
+      <ErrorBoundaryRoute path={`${match.url}partener-field-file`} component={PartenerFieldFile} />
+      <ErrorBoundaryRoute path={`${match.url}provider-expedition`} component={ProviderExpedition} />
+      <ErrorBoundaryRoute path={`${match.url}dynamic-field`} component={DynamicField} />
+      <ErrorBoundaryRoute path={`${match.url}tender-answer-field`} component={TenderAnswerField} />
+      <ErrorBoundaryRoute path={`${match.url}provider-execution-average`} component={ProviderExecutionAverage} />
+      <ErrorBoundaryRoute path={`${match.url}task-status-traking`} component={TaskStatusTraking} />
+      <ErrorBoundaryRoute path={`${match.url}task-status-traking-file`} component={TaskStatusTrakingFile} />
+      <ErrorBoundaryRoute path={`${match.url}process-category`} component={ProcessCategory} />
+      <ErrorBoundaryRoute path={`${match.url}query`} component={Query} />
+      <ErrorBoundaryRoute path={`${match.url}query-user`} component={QueryUser} />
+      <ErrorBoundaryRoute path={`${match.url}query-field`} component={QueryField} />
+      <ErrorBoundaryRoute path={`${match.url}query-field-response`} component={QueryFieldResponse} />
+      <ErrorBoundaryRoute path={`${match.url}query-field-response-file`} component={QueryFieldResponseFile} />
+      <ErrorBoundaryRoute path={`${match.url}query-user-validator`} component={QueryUserValidator} />
+      <ErrorBoundaryRoute path={`${match.url}query-client-type`} component={QueryClientType} />
+      <ErrorBoundaryRoute path={`${match.url}query-client`} component={QueryClient} />
+      <ErrorBoundaryRoute path={`${match.url}q-category`} component={QCategory} />
+      <ErrorBoundaryRoute path={`${match.url}query-file`} component={QueryFile} />
+      <ErrorBoundaryRoute path={`${match.url}query-instance`} component={QueryInstance} />
+      <ErrorBoundaryRoute path={`${match.url}query-instance-validation`} component={QueryInstanceValidation} />
+      <ErrorBoundaryRoute path={`${match.url}query-instance-validation-file`} component={QueryInstanceValidationFile} />
+      <ErrorBoundaryRoute path={`${match.url}agenda-event`} component={AgendaEvent} />
+      <ErrorBoundaryRoute path={`${match.url}agenda`} component={AgendaEvent} />
+      <ErrorBoundaryRoute path={`${match.url}event-file`} component={EventFile} />
+      <ErrorBoundaryRoute path={`${match.url}event-participant`} component={EventParticipant} />
+      <ErrorBoundaryRoute path={`${match.url}event-exeption`} component={EventExeption} />
+      <ErrorBoundaryRoute path={`${match.url}event-trigger`} component={EventTrigger} />
+      <ErrorBoundaryRoute path={`${match.url}task-item`} component={TaskItem} />
+      <ErrorBoundaryRoute path={`${match.url}item-check-justification-file`} component={ItemCheckJustificationFile} />
+      <ErrorBoundaryRoute path={`${match.url}item-check-justification`} component={ItemCheckJustification} />
+      <ErrorBoundaryRoute path={`${match.url}todolist`} component={TodoList} />
+      <ErrorBoundaryRoute path={`${match.url}project`} component={Project} />
+      <ErrorBoundaryRoute path={`${match.url}project-edge-info`} component={ProjectEdgeInfo} />
+      <ErrorBoundaryRoute path={`${match.url}project-event-trigger`} component={ProjectEventTrigger} />
+      <ErrorBoundaryRoute path={`${match.url}project-item-check-justification`} component={ProjectItemCheckJustification} />
+      <ErrorBoundaryRoute path={`${match.url}project-item-check-justification-file`} component={ProjectItemCheckJustificationFile} />
+      <ErrorBoundaryRoute path={`${match.url}project-public-holiday`} component={ProjectPublicHoliday} />
+      <ErrorBoundaryRoute path={`${match.url}project-task`} component={ProjectTask} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-file`} component={ProjectTaskFile} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-item`} component={ProjectTaskItem} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-status-traking`} component={ProjectTaskStatusTraking} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-status-traking-file`} component={ProjectTaskStatusTrakingFile} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-submission`} component={ProjectTaskSubmission} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-user`} component={ProjectTaskUser} />
+      <ErrorBoundaryRoute path={`${match.url}project-task-validation-control`} component={ProjectTaskValidationControl} />
+      <ErrorBoundaryRoute path={`${match.url}project-category`} component={ProjectCategory} />
+      <ErrorBoundaryRoute path={`${match.url}project-calendar`} component={ProjectCalendar} />
+      <ErrorBoundaryRoute path={`${match.url}project-cond-node`} component={ProjectCondNode} />
+      <ErrorBoundaryRoute path={`${match.url}project-file`} component={ProjectFile} />
+      <ErrorBoundaryRoute path={`${match.url}project-comment`} component={ProjectComment} />
+      <ErrorBoundaryRoute path={`${match.url}project-comment-file`} component={ProjectCommentFile} />
+      <ErrorBoundaryRoute path={`${match.url}tender-provider`} component={TenderProvider} />
+      <ErrorBoundaryRoute path={`${match.url}equipement`} component={Equipement} />
+      <ErrorBoundaryRoute path={`${match.url}engeneering`} component={Engeneering} />
+      <ErrorBoundaryRoute path={`${match.url}consommable`} component={Consommable} />
+      <ErrorBoundaryRoute path={`${match.url}changement`} component={Changement} />
+      <ErrorBoundaryRoute path={`${match.url}approvisionnement`} component={Approvisionnement} />
+      <ErrorBoundaryRoute path={`${match.url}process-category-user`} component={ProcessCategoryUser} />
+      <ErrorBoundaryRoute path={`${match.url}user-file`} component={UserFile} />
+      <ErrorBoundaryRoute path={`${match.url}audit`} component={Audit} />
+      <ErrorBoundaryRoute path={`${match.url}audit-user`} component={AuditUser} />
+      <ErrorBoundaryRoute path={`${match.url}audit-status-traking`} component={AuditStatusTraking} />
+      <ErrorBoundaryRoute path={`${match.url}audit-status-traking-file`} component={AuditStatusTrakingFile} />
+      <ErrorBoundaryRoute path={`${match.url}audit-recommendation-file`} component={AuditRecommendationFile} />
+      <ErrorBoundaryRoute path={`${match.url}audit-recommendation`} component={AuditRecommendation} />
+      <ErrorBoundaryRoute path={`${match.url}audit-cycle`} component={AuditCycle} />
+      <ErrorBoundaryRoute path={`${match.url}audit-recom-user`} component={AuditRecomUser} />
+      <ErrorBoundaryRoute path={`${match.url}project-startable-task`} component={ProjectStartableTask} />
+      <ErrorBoundaryRoute path={`${match.url}q-ponctual-task-info`} component={QPonctualTaskInfo} />
+      <ErrorBoundaryRoute path={`${match.url}audit-event-trigger`} component={AuditEventTrigger} />
+      <ErrorBoundaryRoute path={`${match.url}kpi`} component={KPI} />
+      {/* jhipster-needle-add-route-path - JHipster will add routes here */}
+    </Switch>
+  </div>
+);
+
+export default Routes;

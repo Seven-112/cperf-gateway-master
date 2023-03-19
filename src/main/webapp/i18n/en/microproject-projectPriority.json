@@ -1,0 +1,11 @@
+{
+  "microgatewayApp": {
+    "ProjectPriority": {
+      "null": "",
+      "VERYHIGTH": "VERYHIGTH",
+      "HIGHT": "HIGHT",
+      "LOW": "LOW",
+      "VERYLOW": "VERYLOW"
+    }
+  }
+}

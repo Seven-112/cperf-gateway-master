@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectCalendar": {
+      "home": {
+        "title": "Calendars",
+        "createLabel": "Créer un nouveau Project Calendar",
+        "createOrEditLabel": "Créer ou éditer un Project Calendar",
+        "notFound": "Aucun Project Calendar trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Project Calendar {{ id }} ?"
+      },
+      "detail": {
+        "title": "Project Calendar"
+      },
+      "dayNumber": "Day Number",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "projectId": "Project Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectCalendar": {
+      "created": "Un nouveau Project Calendar a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Project Calendar avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Project Calendar avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

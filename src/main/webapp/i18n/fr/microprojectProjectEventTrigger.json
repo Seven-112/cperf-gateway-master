@@ -1,0 +1,36 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectEventTrigger": {
+      "home": {
+        "title": "ProjectEventTriggers",
+        "createLabel": "Créer un nouveau Project Event Trigger",
+        "createOrEditLabel": "Créer ou éditer un Project Event Trigger",
+        "notFound": "Aucun Project Event Trigger trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Project Event Trigger {{ id }} ?"
+      },
+      "detail": {
+        "title": "Project Event Trigger"
+      },
+      "editorId": "Editor Id",
+      "createdAt": "Created At",
+      "name": "Name",
+      "recurrence": "Recurrence",
+      "disabled": "Disabled",
+      "editorName": "Editor Name",
+      "hour": "Hour",
+      "minute": "Minute",
+      "firstStartedAt": "First Started At",
+      "sheduledOn": "Sheduled On",
+      "processId": "Process Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectEventTrigger": {
+      "created": "Un nouveau Project Event Trigger a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Project Event Trigger avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Project Event Trigger avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

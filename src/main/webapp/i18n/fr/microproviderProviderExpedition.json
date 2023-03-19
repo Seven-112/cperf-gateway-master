@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microproviderProviderExpedition": {
+      "home": {
+        "title": "Suivis d'expéditions",
+        "createLabel": "Suivi d'éxpédition",
+        "createOrEditLabel": "Suivi d'éxpédition",
+        "notFound": "Aucun suivi d'éxpédition trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le suivi d'éxpédition {{ id }} ?"
+      },
+      "detail": {
+        "title": "Suivi d'expédition"
+      },
+      "countryOrigin": "Pays D'origine",
+      "departureDate": "Date de départ",
+      "portArivalDate": "Date d'arrivée au port",
+      "siteDeliveryDate": "Date de livraison sur site",
+      "readOnly": "Lecture seule",
+      "previewDepatureDate": "Date prévisionnelle de départ",
+      "previewPortArivalDate": "Date prévisionnelle d'arrivée au port",
+      "previewSiteDeliveryDate": "Date prévisionnelle de livraison sur site",
+      "transporter": "Transporteur",
+      "answer": "Réponse"
+    }
+  },
+  "microproviderApp": {
+    "microproviderProviderExpedition": {
+      "created": "Une nouvelle expédition a été créé avec l'identifiant {{ param }}",
+      "updated": "L'expédition avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'expédition avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

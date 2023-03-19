@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryInstanceValidationFile": {
+      "home": {
+        "title": "Query Instance Validation Files",
+        "createLabel": "Create a new Query Instance Validation File",
+        "createOrEditLabel": "Create or edit a Query Instance Validation File",
+        "notFound": "No Query Instance Validation Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Instance Validation File {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Instance Validation File"
+      },
+      "fileName": "File Name",
+      "fileId": "File Id",
+      "validation": "Validation"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryInstanceValidationFile": {
+      "created": "A new Query Instance Validation File is created with identifier {{ param }}",
+      "updated": "A Query Instance Validation File is updated with identifier {{ param }}",
+      "deleted": "A Query Instance Validation File is deleted with identifier {{ param }}"
+    }
+  }
+}

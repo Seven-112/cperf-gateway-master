@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "employee": {
+      "home": {
+        "title": "Collaborateurs",
+        "createLabel": "Créer un nouveau collaborateur",
+        "createOrEditLabel": "Créer ou éditer un collaborateur",
+        "notFound": "Aucun collaborateur trouvé"
+      },
+      "created": "Un nouveau collaborateur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le collaborateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le collaborateur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le collaborateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Collaborateur"
+      },
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "E-mail",
+      "phoneNumber": "Téléphone",
+      "salary": "Salire",
+      "hireDate": "Date de naissance",
+      "photo": "Photo",
+      "managerId": "N+1",
+      "department": "Département",
+      "fonction": "Poste"
+    }
+  }
+}

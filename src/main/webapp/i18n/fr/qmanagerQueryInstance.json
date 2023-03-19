@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryInstance": {
+      "home": {
+        "title": "instances",
+        "createLabel": "Créer un nouveau instance",
+        "createOrEditLabel": "Créer ou éditer un instance",
+        "notFound": "Aucune instance trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'instance {{ id }} ?"
+      },
+      "detail": {
+        "title": "Instance"
+      },
+      "name": "Objet",
+      "startAt": "Date de génération",
+      "userId": "Générateur",
+      "validated": "Validée",
+      "query": "Requête",
+      "client": "Client",
+      "status": "Statut"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryInstance": {
+      "created": "Un nouvelle instance a été créé avec l'identifiant {{ param }}",
+      "updated": "L'instance avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'instance avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

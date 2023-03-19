@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskStatusTraking": {
+      "home": {
+        "title": "Historique",
+        "createLabel": "Créer une nouvelle historique",
+        "createOrEditLabel": "Créer ou éditer une historique",
+        "notFound": "Aucune historique trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le historique {{ id }} ?"
+      },
+      "detail": {
+        "title": "Historique"
+      },
+      "taskId": "Tâche",
+      "status": "Status",
+      "tracingAt": "Trackée le",
+      "justification": "Justification",
+      "userId": "Id utilisatuer",
+      "userName": "Utilisateur",
+      "userEmail": "Email utilisatuer"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskStatusTraking": {
+      "created": "Une nouvelle historique a été créé avec l'identifiant {{ param }}",
+      "updated": "L'historique avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'historique avec l'identifiant {{ param }} a été supprimé'"
+    }
+  }
+}

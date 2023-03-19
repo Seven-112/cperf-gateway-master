@@ -1,0 +1,14 @@
+{
+  "microgatewayApp": {
+    "ProjectTaskStatus": {
+      "null": "",
+      "VALID": "VALID",
+      "STARTED": "STARTED",
+      "EXECUTED": "Executed",
+      "COMPLETED": "COMPLETED",
+      "CANCELED": "CANCELED",
+      "SUBMITTED": "SUBMITTED",
+      "ON_PAUSE": "ON_PAUSE"
+    }
+  }
+}

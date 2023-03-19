@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprocessProcedure": {
+      "home": {
+        "title": "Procédures",
+        "createLabel": "Créer une nouvelle procédure",
+        "createOrEditLabel": "Créer ou éditer une procédure",
+        "notFound": "Aucune procédure trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la procédure {{ id }} ?"
+      },
+      "detail": {
+        "title": "Procédure"
+      },
+      "name": "nom",
+      "fileId": "Fichier",
+      "storeAt": "Enrestrée le"
+    }
+  },
+  "microprocessApp": {
+    "microprocessProcedure": {
+      "created": "Une nouvelle procédure a été créé avec l'identifiant {{ param }}",
+      "updated": "La procédure avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La procédure avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

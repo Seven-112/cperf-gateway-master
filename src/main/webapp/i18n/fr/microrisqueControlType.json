@@ -1,0 +1,26 @@
+{
+  "microgatewayApp": {
+    "microrisqueControlType": {
+      "home": {
+        "title": "ControlTypes",
+        "createLabel": "Créer un nouveau Control Type",
+        "createOrEditLabel": "Créer ou éditer un Control Type",
+        "notFound": "Aucun Control Type trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Control Type {{ id }} ?"
+      },
+      "detail": {
+        "title": "Control Type"
+      },
+      "type": "Type"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueControlType": {
+      "created": "Un nouveau Control Type a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Control Type avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Control Type avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

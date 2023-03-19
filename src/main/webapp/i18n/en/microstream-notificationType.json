@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "NotificationType": {
+      "null": "",
+      "MESSAGE": "MESSAGE",
+      "INFO": "INFO",
+      "WARNING": "WARNING",
+      "DANGER": "DANGER",
+      "SUCCESS": "SUCCESS"
+    }
+  }
+}

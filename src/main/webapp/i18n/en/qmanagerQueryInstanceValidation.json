@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryInstanceValidation": {
+      "home": {
+        "title": "Validations",
+        "createLabel": "Create a new validation",
+        "createOrEditLabel": "Create or edit a validation",
+        "notFound": "No validations found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete validation {{ id }}?"
+      },
+      "detail": {
+        "title": "Validation"
+      },
+      "validatorId": "Validator",
+      "status": "Status",
+      "justification": "Justification",
+      "validatedAt": "Validated At",
+      "instance": "Instance"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryInstanceValidation": {
+      "created": "A new validation is created with identifier {{ param }}",
+      "updated": "A validation is updated with identifier {{ param }}",
+      "deleted": "A validation is deleted with identifier {{ param }}"
+    }
+  }
+}

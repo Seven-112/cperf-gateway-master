@@ -1,0 +1,9 @@
+{
+  "microgatewayApp": {
+    "PartenerRole": {
+      "null": "",
+      "ROLE_PROVIDER": "ROLE_PROVIDER",
+      "ROLE_CLIENT": "ROLE_CLIENT"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderProviderExecutionAverage": {
+      "home": {
+        "title": "Note des fournisseurs",
+        "createLabel": "Créer un nouveau Provider Execution Average",
+        "createOrEditLabel": "Créer ou éditer un Provider Execution Average",
+        "notFound": "Aucun Provider Execution Average trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Provider Execution Average {{ id }} ?"
+      },
+      "detail": {
+        "title": "Note des fournisseurs"
+      },
+      "providerId": "Fournisseur",
+      "average": "Moyenne",
+      "dte": "Date",
+      "answer": "Réponse"
+    }
+  },
+  "microproviderApp": {
+    "microproviderProviderExecutionAverage": {
+      "created": "Une note des fournisseurs a été créé avec l'identifiant {{ param }}",
+      "updated": "La note des fournisseurs avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La note des fournisseurs avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

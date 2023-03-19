@@ -1,0 +1,14 @@
+{
+  "perfIndicatorUnity": {
+    "title": "Unités",
+    "detail": {
+      "title": "Unité"
+    },
+    "DAY": "Jour",
+    "WEEK": "Semaine",
+    "SEMESTER": "Semestre",
+    "TRIMESTER": "Trimestre",
+    "MONTH": "Moi",
+    "YEAR": "Année"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "microgatewayApp": {
+    "AuditStatus": {
+      "null": "",
+      "INITIAL": "Initial(e)",
+      "STARTED": "Démarré(e)",
+      "EXECUTED": "Executé(e)",
+      "SUBMITTED": "Soumis(e)",
+      "COMPLETED": "Traité(e)",
+      "CANCELED": "Annulé(e)"
+    }
+  }
+}

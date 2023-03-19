@@ -1,0 +1,13 @@
+{
+  "extends": ["jhipster-react"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-console": "off",
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "complexity": ["error", 100],
+    "object-shorthand": ["error", "always"]
+  }
+}

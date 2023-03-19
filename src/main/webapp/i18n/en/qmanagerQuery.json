@@ -1,0 +1,33 @@
+{
+  "microgatewayApp": {
+    "qmanagerQuery": {
+      "home": {
+        "title": "Queries",
+        "createLabel": "Create a new Query",
+        "createOrEditLabel": "Create or edit a Query",
+        "notFound": "No Queries found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query {{ id }}?"
+      },
+      "detail": {
+        "title": "Query"
+      },
+      "name": "Object",
+      "processId": "Process Id",
+      "editorId": "Editor Id",
+      "shared": "Shared",
+      "description": "Description",
+      "category": "Category",
+      "clientType": "Client Type",
+      "ponctual": "Punctual"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQuery": {
+      "created": "A new Query is created with identifier {{ param }}",
+      "updated": "A Query is updated with identifier {{ param }}",
+      "deleted": "A Query is deleted with identifier {{ param }}"
+    }
+  }
+}

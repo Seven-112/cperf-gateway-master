@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerExecutionFile": {
+      "home": {
+        "title": "TenderAnswerExecutionFiles",
+        "createLabel": "Créer un nouveau Tender Answer Execution File",
+        "createOrEditLabel": "Créer ou éditer un Tender Answer Execution File",
+        "notFound": "Aucun Tender Answer Execution File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tender Answer Execution File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tender Answer Execution File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "execution": "Execution"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerExecutionFile": {
+      "created": "Un nouveau Tender Answer Execution File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tender Answer Execution File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tender Answer Execution File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

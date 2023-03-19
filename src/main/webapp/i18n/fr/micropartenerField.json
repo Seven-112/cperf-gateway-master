@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "micropartenerField": {
+      "home": {
+        "title": "Champs dynamiques",
+        "createLabel": "Créer un nouveau champ dynamique",
+        "createOrEditLabel": "Créer ou éditer un champ dynamique",
+        "notFound": "Aucun Field trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer ce champ dynamique {{ id }} ?"
+      },
+      "detail": {
+        "title": "Champ"
+      },
+      "label": "Libellé",
+      "type": "Type",
+      "optinal": "Facultatif",
+      "category": "Catégorie",
+      "requestFiles": "Avec demande de documents"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerField": {
+      "created": "Un nouveau champ dynamique a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Champ dynamique avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Champ dynamique avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskUser": {
+      "home": {
+        "title": "Task users",
+        "createLabel": "Create a new task user",
+        "createOrEditLabel": "Create or edit a task user",
+        "notFound": "No task users found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete task user {{ id }}?"
+      },
+      "detail": {
+        "title": "Task user"
+      },
+      "userId": "user",
+      "role": "role",
+      "task": "task"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskUser": {
+      "created": "A new task user is created with identifier {{ param }}",
+      "updated": "A task user is updated with identifier {{ param }}",
+      "deleted": "A task user is deleted with identifier {{ param }}"
+    }
+  }
+}

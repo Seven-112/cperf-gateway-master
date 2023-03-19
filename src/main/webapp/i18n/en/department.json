@@ -1,0 +1,23 @@
+{
+  "microgatewayApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "createLabel": "Create a new department",
+        "createOrEditLabel": "Create or edit a department",
+        "notFound": "No departments found"
+      },
+      "created": "A new department is created with identifier {{ param }}",
+      "updated": "A department is updated with identifier {{ param }}",
+      "deleted": "A department is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete department {{ id }}?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "name": "Name",
+      "employees": "Employees"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "microgatewayApp": {
+    "microrisqueAudit": {
+      "home": {
+        "title": "Audits",
+        "createLabel": "Create a new audit",
+        "createOrEditLabel": "Create or edit an audit",
+        "notFound": "No audits found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete audit {{ id }}?"
+      },
+      "detail": {
+        "title": "Audit"
+      },
+      "title": "Title",
+      "startDate": "Created Date",
+      "endDate": "End Date",
+      "executedAt": "Executed At",
+      "processId": "Process Id",
+      "processName": "Process",
+      "processCategoryId": "Category Id",
+      "processCategoryName": "Category",
+      "riskLevel": "Risk level",
+      "type": "Type",
+      "status": "Status",
+      "riskId": "Risk Id",
+      "riskName": "Risk",
+      "cycle": "Cycle"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAudit": {
+      "created": "A new audit is created with identifier {{ param }}",
+      "updated": "A audit is updated with identifier {{ param }}",
+      "deleted": "A audit is deleted with identifier {{ param }}"
+    }
+  }
+}

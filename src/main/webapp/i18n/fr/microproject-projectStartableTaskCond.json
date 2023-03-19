@@ -1,0 +1,11 @@
+{
+  "microgatewayApp": {
+    "ProjectStartableTaskCond": {
+      "null": "",
+      "LOOPBACK": "LOOPBACK",
+      "TRIGGER_STARTED": "TRIGGER_STARTED",
+      "TRIGGER_VALIDATED": "TRIGGER_VALIDATED",
+      "TRIGGER_CANCELED": "TRIGGER_CANCELED"
+    }
+  }
+}

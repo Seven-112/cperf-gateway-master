@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "QueryInstanceStatus": {
+      "null": "",
+      "WAIT_VALIDATION": "No validated",
+      "REJECTED": "Rejected",
+      "VALIDATED": "Validated"
+    }
+  }
+}

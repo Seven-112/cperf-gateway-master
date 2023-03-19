@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+}
+.loginCard {
+  background: linear-gradient(68deg, #1f0d6e -70%, #53a7ad 70%, #c28592 1%);
+  box-shadow: 25px 60px 35px 69px rgba(255, 105, 135, 0.3);
+  color: white;
+  padding: 15px;
+}
+.loginCardContent {
+  min-height: 450px;
+  border: 1px solid white;
+  border-radius: 50px;
+  box-shadow: 25px 60px 35px 69px rgba(1, 20, 4, 0.603);
+}
+.loginCardHeader {
+  text-align: center;
+}
+.white {
+  color: white;
+}
+.textPrimary {
+  color: blue;
+}
+.align-center {
+  text-align: center;
+}
+.btnSubmitLogin {
+  margin: 15%;
+}
+.loginErrorContainer {
+  height: 60px;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.loginErrorAlert {
+  opacity: 0.7;
+  border-radius: 250px;
+}

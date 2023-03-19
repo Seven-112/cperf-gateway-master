@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "micropeopleDepartment": {
+      "home": {
+        "title": "Departments",
+        "createLabel": "Create a new department",
+        "createOrEditLabel": "Create or edit a department",
+        "notFound": "No departments found",
+        "editLabel": "Department edition"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete department {{ id }}?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "name": "Name",
+      "employee": "Employee"
+    }
+  },
+  "micropeopleApp": {
+    "micropeopleDepartment": {
+      "created": "A new department is created with identifier {{ param }}",
+      "updated": "A department is updated with identifier {{ param }}",
+      "deleted": "A department is deleted with identifier {{ param }}"
+    }
+  }
+}

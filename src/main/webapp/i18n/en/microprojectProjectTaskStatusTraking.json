@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskStatusTraking": {
+      "home": {
+        "title": "Project Task Status Trakings",
+        "createLabel": "Create a new Project Task Status Traking",
+        "createOrEditLabel": "Create or edit a Project Task Status Traking",
+        "notFound": "No Project Task Status Trakings found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task Status Traking {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task Status Traking"
+      },
+      "taskId": "Task Id",
+      "status": "Status",
+      "tracingAt": "Tracing At",
+      "justification": "Justification",
+      "userId": "User Id",
+      "userName": "User Name",
+      "userEmail": "User Email"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskStatusTraking": {
+      "created": "A new Project Task Status Traking is created with identifier {{ param }}",
+      "updated": "A Project Task Status Traking is updated with identifier {{ param }}",
+      "deleted": "A Project Task Status Traking is deleted with identifier {{ param }}"
+    }
+  }
+}

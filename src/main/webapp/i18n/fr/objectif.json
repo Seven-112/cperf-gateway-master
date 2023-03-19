@@ -1,0 +1,33 @@
+{
+  "microgatewayApp": {
+    "objectif": {
+      "home": {
+        "title": "Objectifs",
+        "createLabel": "Créer un nouveau objectif",
+        "createOrEditLabel": "Créer ou éditer un objectif",
+        "notFound": "Aucun objectif trouvé"
+      },
+      "created": "Un nouveau objectif a été créé avec l'identifiant {{ param }}",
+      "updated": "L'objectif avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'objectif avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'objectif {{ id }} ?"
+      },
+      "detail": {
+        "title": "Objectif"
+      },
+      "name": "nom",
+      "delay": "Délai",
+      "createdAt": "Crée le",
+      "categorie": "catégorie",
+      "averagePercentage": "Pourcentage moyen",
+      "ponderation": "Pondération",
+      "realized": "Réalisé",
+      "typeObjectif": "Type d'objectif",
+      "fonction": "Post",
+      "department": "Département",
+      "employee": "Employé",
+      "parent": "Parent"
+    }
+  }
+}

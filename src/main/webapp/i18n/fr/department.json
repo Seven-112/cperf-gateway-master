@@ -1,0 +1,23 @@
+{
+  "microgatewayApp": {
+    "department": {
+      "home": {
+        "title": "Directions",
+        "createLabel": "Créer une nouvelle direction",
+        "createOrEditLabel": "Créer ou éditer une direction",
+        "notFound": "Aucune direction trouvée"
+      },
+      "created": "Un nouvelle direction a été créé avec l'identifiant {{ param }}",
+      "updated": "La direction avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La direction avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la direction {{ id }} ?"
+      },
+      "detail": {
+        "title": "Direction"
+      },
+      "name": "nom",
+      "employees": "employées"
+    }
+  }
+}

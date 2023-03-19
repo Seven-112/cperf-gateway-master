@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskValidationControl": {
+      "home": {
+        "title": "Validation Controls",
+        "createLabel": "Create a new validation control",
+        "createOrEditLabel": "Create or edit a Validation Control",
+        "notFound": "No validation controls found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete validation control {{ id }}?"
+      },
+      "detail": {
+        "title": "Validation control"
+      },
+      "label": "Label",
+      "required": "Required",
+      "valid": "Valid",
+      "task": "Task"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskValidationControl": {
+      "created": "A new validation control is created with identifier {{ param }}",
+      "updated": "A validation control is updated with identifier {{ param }}",
+      "deleted": "A validation control is deleted with identifier {{ param }}"
+    }
+  }
+}

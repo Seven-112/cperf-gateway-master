@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microproviderExecutionValidationFile": {
+      "home": {
+        "title": "ExecutionValidationFiles",
+        "createLabel": "Créer un nouveau Execution Validation File",
+        "createOrEditLabel": "Créer ou éditer un Execution Validation File",
+        "notFound": "Aucun Execution Validation File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Execution Validation File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Execution Validation File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "execution": "Execution"
+    }
+  },
+  "microproviderApp": {
+    "microproviderExecutionValidationFile": {
+      "created": "Un nouveau Execution Validation File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Execution Validation File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Execution Validation File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

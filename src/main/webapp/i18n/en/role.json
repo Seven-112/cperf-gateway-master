@@ -1,0 +1,21 @@
+{
+  "role": {
+    "title": "Profiles",
+    "detail": {
+      "title": "Profile"
+    },
+    "ROLE_ADMIN": "Administrator",
+    "ROLE_USER": "User",
+    "ROLE_PROVIDER": "Provider",
+    "ROLE_CLIENT": "Customer",
+    "ROLE_ANONYMOUS": "Anonymous",
+    "ADMIN": "Administrator",
+    "USER": "User",
+    "PROVIDER": "Provider",
+    "CLIENT": "Customer",
+    "ANONYMOUS": "Anonymous",
+    "EVALUATOR": "Evaluator",
+    "EMPLOYEE": "Employe",
+    "PROVIDER_VALIDATOR": "Providers validators"
+  }
+}

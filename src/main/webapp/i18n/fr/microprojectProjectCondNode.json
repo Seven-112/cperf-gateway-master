@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectCondNode": {
+      "home": {
+        "title": "ProjectCondNodes",
+        "createLabel": "Créer un nouveau Project Cond Node",
+        "createOrEditLabel": "Créer ou éditer un Project Cond Node",
+        "notFound": "Aucun Project Cond Node trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Project Cond Node {{ id }} ?"
+      },
+      "detail": {
+        "title": "Project Cond Node"
+      },
+      "logigramPosX": "Logigram Pos X",
+      "logigramPosY": "Logigram Pos Y",
+      "projectId": "Project Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectCondNode": {
+      "created": "Un nouveau Project Cond Node a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Project Cond Node avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Project Cond Node avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

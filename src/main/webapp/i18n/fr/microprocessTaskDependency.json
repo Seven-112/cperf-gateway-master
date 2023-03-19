@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskDependency": {
+      "home": {
+        "title": "TaskDependencies",
+        "createLabel": "Créer un nouveau Task Dependency",
+        "createOrEditLabel": "Créer ou éditer un Task Dependency",
+        "notFound": "Aucun Task Dependency trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Task Dependency {{ id }} ?"
+      },
+      "detail": {
+        "title": "Task Dependency"
+      },
+      "taskId": "Task Id",
+      "dependencyId": "Dependency Id",
+      "dependencyLink": "Dependency Link",
+      "tag": "Tag"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskDependency": {
+      "created": "Un nouveau Task Dependency a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Task Dependency avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Task Dependency avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

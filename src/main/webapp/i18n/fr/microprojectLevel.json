@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprojectLevel": {
+      "home": {
+        "title": "Niveau",
+        "createLabel": "Créer un niveau",
+        "createOrEditLabel": "Créer ou éditer un niveau",
+        "notFound": "Aucun niveau trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le niveau {{ id }} ?"
+      },
+      "detail": {
+        "title": "Niveau"
+      },
+      "name": "Nom",
+      "ponderation": "Pondération",
+      "parentId": "Niveau Parent",
+      "advencedStatePercent": "Etat d'avancement",
+      "responsableName": "Résponsable",
+      "responsableEmail": "Email résponsable",
+      "responsableId": "Id résponsable"
+    }
+  },
+  "microprojectApp": {
+    "microprojectLevel": {
+      "created": "Un niveau a été créé avec l'identifiant {{ param }}",
+      "updated": "Le niveau avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le niveau avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

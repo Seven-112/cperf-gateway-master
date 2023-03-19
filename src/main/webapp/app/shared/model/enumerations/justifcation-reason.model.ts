@@ -1,0 +1,9 @@
+export const enum JustifcationReason {
+  NOSTARTED = 'NOSTARTED',
+
+  CANCELED = 'CANCELED',
+
+  LATER_COMPLETED = 'LATER_COMPLETED',
+
+  LATER_UNFINISH = 'LATER_UNFINISH',
+}

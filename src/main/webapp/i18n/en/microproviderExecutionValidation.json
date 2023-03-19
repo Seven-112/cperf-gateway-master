@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderExecutionValidation": {
+      "home": {
+        "title": "Approbation",
+        "createLabel": "Approbation",
+        "createOrEditLabel": "Approbation",
+        "notFound": "No Execution Validations found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Execution Validation {{ id }}?"
+      },
+      "detail": {
+        "title": "Execution Validation"
+      },
+      "userId": "User Id",
+      "approved": "Approved",
+      "justification": "Justification",
+      "execution": "Execution"
+    }
+  },
+  "microproviderApp": {
+    "microproviderExecutionValidation": {
+      "created": "A new Execution Validation is created with identifier {{ param }}",
+      "updated": "A Execution Validation is updated with identifier {{ param }}",
+      "deleted": "A Execution Validation is deleted with identifier {{ param }}"
+    }
+  }
+}

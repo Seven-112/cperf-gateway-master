@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQCategory": {
+      "home": {
+        "title": "Q Categories",
+        "createLabel": "Create a new Q Category",
+        "createOrEditLabel": "Create or edit a Q Category",
+        "notFound": "No Q Categories found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Q Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Q Category"
+      },
+      "name": "Name",
+      "description": "Description",
+      "parent": "Parent"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQCategory": {
+      "created": "A new Q Category is created with identifier {{ param }}",
+      "updated": "A Q Category is updated with identifier {{ param }}",
+      "deleted": "A Q Category is deleted with identifier {{ param }}"
+    }
+  }
+}

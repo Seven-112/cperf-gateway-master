@@ -1,0 +1,39 @@
+{
+  "microgatewayApp": {
+    "microprocessProcess": {
+      "home": {
+        "title": "Processus",
+        "createLabel": "Créer un nouveau processus",
+        "createOrEditLabel": "Créer ou éditer un processus",
+        "notFound": "Aucun processus trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le processus {{ id }} ?"
+      },
+      "detail": {
+        "title": "Processus"
+      },
+      "description": "Description",
+      "priorityLevel": "Niveau de priorité",
+      "valid": "Valide",
+      "previewStartAt": "Démarrage prévu le",
+      "startAt": "Démarré(e) le",
+      "previewFinishAt": "Fin prévue le",
+      "finishedAt": "Fini(e) le",
+      "createdAt": "Crée(e) le",
+      "startCount": "Nombre de démarrage",
+      "label": "Libellé",
+      "modelId": "Modèl",
+      "editorId": "Editeur",
+      "procedureId": "Procedure",
+      "runnableProcessId": "Runnable Process"
+    }
+  },
+  "microprocessApp": {
+    "microprocessProcess": {
+      "created": "Un nouveau processus a été créé avec l'identifiant {{ param }}",
+      "updated": "Le processus avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le processus avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

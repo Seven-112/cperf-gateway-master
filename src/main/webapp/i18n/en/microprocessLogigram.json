@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessLogigram": {
+      "home": {
+        "title": "Logigrams",
+        "createLabel": "Create a new Logigram",
+        "createOrEditLabel": "Create or edit a Logigram",
+        "notFound": "No Logigrams found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Logigram {{ id }}?"
+      },
+      "detail": {
+        "title": "Logigram"
+      },
+      "source": "Source",
+      "target": "Target",
+      "sourceHandle": "Source Handle",
+      "targetHandle": "Target Handle",
+      "processId": "Process",
+      "valid": "Valid",
+      "condId": "Cond"
+    }
+  },
+  "microprocessApp": {
+    "microprocessLogigram": {
+      "created": "A new Logigram is created with identifier {{ param }}",
+      "updated": "A Logigram is updated with identifier {{ param }}",
+      "deleted": "A Logigram is deleted with identifier {{ param }}"
+    }
+  }
+}

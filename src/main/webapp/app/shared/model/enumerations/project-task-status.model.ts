@@ -1,0 +1,15 @@
+export const enum ProjectTaskStatus {
+  VALID = 'VALID',
+
+  STARTED = 'STARTED',
+
+  EXECUTED = 'EXECUTED',
+
+  COMPLETED = 'COMPLETED',
+
+  CANCELED = 'CANCELED',
+
+  SUBMITTED = 'SUBMITTED',
+
+  ON_PAUSE = 'ON_PAUSE',
+}

@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microprocessProcessCategoryUser": {
+      "home": {
+        "title": "Utilisateurs",
+        "createLabel": "Créer un nouvel utilisateur",
+        "createOrEditLabel": "Créer ou éditer un utilisateur",
+        "notFound": "Aucun utilisateur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'utilisateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Utilisateur"
+      },
+      "userId": "Id utilisateur",
+      "userFullName": "Utilisateur",
+      "userEmail": "Email utilisateur",
+      "categoryId": "Categorie",
+      "processId": "Process"
+    }
+  },
+  "microprocessApp": {
+    "microprocessProcessCategoryUser": {
+      "created": "Un nouveau utilisateur a été créé avec l'identifiant {{ param }}",
+      "updated": "L'utilisateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'utilisateur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

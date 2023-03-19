@@ -1,0 +1,23 @@
+{
+  "microgatewayApp": {
+    "fonction": {
+      "home": {
+        "title": "Fonctions",
+        "createLabel": "Create a new Fonction",
+        "createOrEditLabel": "Create or edit a Fonction",
+        "notFound": "No Fonctions found"
+      },
+      "created": "A new Fonction is created with identifier {{ param }}",
+      "updated": "A Fonction is updated with identifier {{ param }}",
+      "deleted": "A Fonction is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Fonction {{ id }}?"
+      },
+      "detail": {
+        "title": "Fonction"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

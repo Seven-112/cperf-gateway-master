@@ -1,0 +1,24 @@
+{
+  "microgatewayApp": {
+    "typeindicator": {
+      "home": {
+        "title": "Type d'indicateurs",
+        "createLabel": "Créer un nouveau type d'indicateur",
+        "createOrEditLabel": "Créer ou éditer un type d'indicateur",
+        "notFound": "Aucun Type indicateur trouvé"
+      },
+      "created": "Un nouveau type d'indicateur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le type d'indicateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le type d'indicateur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le type d'indicateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "type d'indicateur"
+      },
+      "name": "Nom",
+      "measurable": "Mésurable",
+      "valid": "Actif"
+    }
+  }
+}

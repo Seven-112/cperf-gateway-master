@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microagendaEventExeption": {
+      "home": {
+        "title": "Event Exeptions",
+        "createLabel": "Create a new Event Exeption",
+        "createOrEditLabel": "Create or edit a Event Exeption",
+        "notFound": "No Event Exeptions found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Event Exeption {{ id }}?"
+      },
+      "detail": {
+        "title": "Event Exeption"
+      },
+      "eventId": "Event Id",
+      "hour": "Hour",
+      "month": "Month",
+      "year": "Year",
+      "dateOfMonth": "Date Of Month"
+    }
+  },
+  "microagendaApp": {
+    "microagendaEventExeption": {
+      "created": "A new Event Exeption is created with identifier {{ param }}",
+      "updated": "A Event Exeption is updated with identifier {{ param }}",
+      "deleted": "A Event Exeption is deleted with identifier {{ param }}"
+    }
+  }
+}

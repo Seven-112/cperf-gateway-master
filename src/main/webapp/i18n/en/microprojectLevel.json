@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprojectLevel": {
+      "home": {
+        "title": "Levels",
+        "createLabel": "Create a new Level",
+        "createOrEditLabel": "Create or edit a Level",
+        "notFound": "No Levels found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Level {{ id }}?"
+      },
+      "detail": {
+        "title": "Level"
+      },
+      "name": "Name",
+      "ponderation": "Ponderation",
+      "parentId": "Parent Id",
+      "advencedStatePercent": "Advenced State Percent",
+      "responsableName": "Responsable Name",
+      "responsableEmail": "Responsable Email",
+      "responsableId": "Responsable Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectLevel": {
+      "created": "A new Level is created with identifier {{ param }}",
+      "updated": "A Level is updated with identifier {{ param }}",
+      "deleted": "A Level is deleted with identifier {{ param }}"
+    }
+  }
+}

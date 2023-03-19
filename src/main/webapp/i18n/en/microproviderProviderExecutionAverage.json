@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderProviderExecutionAverage": {
+      "home": {
+        "title": "Provider Execution Averages",
+        "createLabel": "Create a new Provider Execution Average",
+        "createOrEditLabel": "Create or edit a Provider Execution Average",
+        "notFound": "No Provider Execution Averages found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Provider Execution Average {{ id }}?"
+      },
+      "detail": {
+        "title": "Provider Execution Average"
+      },
+      "providerId": "Provider Id",
+      "average": "Average",
+      "dte": "Dte",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderProviderExecutionAverage": {
+      "created": "A new Provider Execution Average is created with identifier {{ param }}",
+      "updated": "A Provider Execution Average is updated with identifier {{ param }}",
+      "deleted": "A Provider Execution Average is deleted with identifier {{ param }}"
+    }
+  }
+}

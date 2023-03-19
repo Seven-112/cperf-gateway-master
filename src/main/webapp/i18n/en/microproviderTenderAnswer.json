@@ -1,0 +1,37 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswer": {
+      "home": {
+        "title": "Tender Answers",
+        "createLabel": "Create a new Tender Answer",
+        "createOrEditLabel": "Create or edit a Tender Answer",
+        "notFound": "No Tender Answers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Tender Answer {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender Answer"
+      },
+      "storeAt": "Store At",
+      "content": "Content",
+      "providerId": "Provider Id",
+      "executionDeley": "Execution Deley",
+      "executionDeleyUnity": "Execution Deley Unity",
+      "tender": "Tender",
+      "average": "average",
+      "startedAt": "Started at",
+      "finishedAt": "Finished at",
+      "starterId": "Starter",
+      "finiserId": "Finisher",
+      "executionAverage": "Assessment"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswer": {
+      "created": "A new Tender Answer is created with identifier {{ param }}",
+      "updated": "A Tender Answer is updated with identifier {{ param }}",
+      "deleted": "A Tender Answer is deleted with identifier {{ param }}"
+    }
+  }
+}

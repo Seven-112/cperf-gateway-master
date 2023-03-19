@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerCategoryEvaluator": {
+      "home": {
+        "title": "Evaluateurs",
+        "createLabel": "Créer un nouvel évaluateur",
+        "createOrEditLabel": "Créer ou éditer un évaluateur",
+        "notFound": "Aucun évaluateur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'évaluateur' {{ id }} ?"
+      },
+      "detail": {
+        "title": "Evaluateur"
+      },
+      "userId": "Utilisateur",
+      "category": "Catégorie"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerCategoryEvaluator": {
+      "created": "Un nouvel évaluateur a été créé avec l'identifiant {{ param }}",
+      "updated": "L'évaluateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'évaluateur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

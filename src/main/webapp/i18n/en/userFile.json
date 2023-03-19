@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "userFile": {
+      "home": {
+        "title": "Files and Folders",
+        "createLabel": "Create a new folder",
+        "createOrEditLabel": "Create or edit a folder",
+        "notFound": "No file or folder found"
+      },
+      "created": "A new file or folder is created with identifier {{ param }}",
+      "updated": "A file or folder is updated with identifier {{ param }}",
+      "deleted": "A file or folder is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete file or folder {{ id }}?"
+      },
+      "detail": {
+        "title": "File or Folder"
+      },
+      "userId": "ID User",
+      "fileId": "ID File",
+      "fileName": "File",
+      "parentId": "Parent folder",
+      "isFolder": "Is a folder",
+      "isEmploye": "Is an employee"
+    }
+  }
+}

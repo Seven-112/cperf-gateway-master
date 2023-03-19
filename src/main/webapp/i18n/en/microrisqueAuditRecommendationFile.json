@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditRecommendationFile": {
+      "home": {
+        "title": "Files",
+        "createLabel": "Create a new file",
+        "createOrEditLabel": "Create or edit a file",
+        "notFound": "No files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete file {{ id }}?"
+      },
+      "detail": {
+        "title": "File"
+      },
+      "recommendationId": "Recommendation Id",
+      "fileId": "File Id",
+      "fileName": "File Name"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditRecommendationFile": {
+      "created": "A new file is created with identifier {{ param }}",
+      "updated": "A file is updated with identifier {{ param }}",
+      "deleted": "A file is deleted with identifier {{ param }}"
+    }
+  }
+}

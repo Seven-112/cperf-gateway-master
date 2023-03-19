@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditStatusTraking": {
+      "home": {
+        "title": "Logs",
+        "createLabel": "Create a new log",
+        "createOrEditLabel": "Create or edit a log",
+        "notFound": "No logs found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete log {{ id }}?"
+      },
+      "detail": {
+        "title": "Logs"
+      },
+      "auditId": "Audit Id",
+      "status": "Status",
+      "tracingAt": "Date",
+      "justification": "Justification",
+      "userId": "User",
+      "editable": "Editable",
+      "recom": "Recommandation"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditStatusTraking": {
+      "created": "A new log is created with identifier {{ param }}",
+      "updated": "A log is updated with identifier {{ param }}",
+      "deleted": "A log is deleted with identifier {{ param }}"
+    }
+  }
+}

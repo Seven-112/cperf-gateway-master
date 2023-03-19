@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectPublicHoliday": {
+      "home": {
+        "title": "Project Public Holidays",
+        "createLabel": "Create a new Project Public Holiday",
+        "createOrEditLabel": "Create or edit a Project Public Holiday",
+        "notFound": "No Project Public Holidays found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Public Holiday {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Public Holiday"
+      },
+      "name": "Name",
+      "date": "Date",
+      "levelId": "Level Id",
+      "processId": "Process Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectPublicHoliday": {
+      "created": "A new Project Public Holiday is created with identifier {{ param }}",
+      "updated": "A Project Public Holiday is updated with identifier {{ param }}",
+      "deleted": "A Project Public Holiday is deleted with identifier {{ param }}"
+    }
+  }
+}

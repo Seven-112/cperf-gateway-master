@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "ProjectTaskFileType": {
+      "null": "",
+      "DESCRIPTION": "Description",
+      "VALIDATION": "Validation",
+      "SOUMISSION": "Soumission"
+    }
+  }
+}

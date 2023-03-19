@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskStatusTraking": {
+      "home": {
+        "title": "Tasks Logs",
+        "createLabel": "Create a new Task Status Traking",
+        "createOrEditLabel": "Create or edit a Task Status Traking",
+        "notFound": "No Task Status Trakings found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Task Status Traking {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Logs"
+      },
+      "taskId": "Task Id",
+      "status": "Status",
+      "tracingAt": "Tracing At",
+      "justification": "Justification",
+      "userId": "User Id",
+      "execeed": "délai expired",
+      "perfIndicator": "Performance Indicator"
+    }
+  },
+  "processApp": {
+    "microprocessTaskStatusTraking": {
+      "created": "A new Task Status Traking is created with identifier {{ param }}",
+      "updated": "A Task Status Traking is updated with identifier {{ param }}",
+      "deleted": "A Task Status Traking is deleted with identifier {{ param }}"
+    }
+  }
+}

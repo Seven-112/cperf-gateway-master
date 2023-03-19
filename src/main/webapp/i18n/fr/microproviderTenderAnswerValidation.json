@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerValidation": {
+      "home": {
+        "title": "Validations",
+        "createLabel": "Créer une nouvelle validation",
+        "createOrEditLabel": "Créer ou éditer une validation",
+        "notFound": "Aucune validation trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la validation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Validation"
+      },
+      "userId": "Utilisateur",
+      "approved": "Approuvée",
+      "justification": "Justification",
+      "answer": "Réponse"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerValidation": {
+      "created": "Une nouvelle validation a été créé avec l'identifiant {{ param }}",
+      "updated": "La validation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La validation avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

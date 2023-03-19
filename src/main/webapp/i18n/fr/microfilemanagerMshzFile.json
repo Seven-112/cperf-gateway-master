@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "microfilemanagerMshzFile": {
+      "home": {
+        "title": "MshzFiles",
+        "createLabel": "Créer un nouveau Mshz File",
+        "createOrEditLabel": "Créer ou éditer un Mshz File",
+        "notFound": "Aucun Mshz File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Mshz File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Mshz File"
+      },
+      "name": "Name",
+      "fData": "F Data"
+    }
+  },
+  "microfilemanagerApp": {
+    "microfilemanagerMshzFile": {
+      "created": "Un nouveau Mshz File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Mshz File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Mshz File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

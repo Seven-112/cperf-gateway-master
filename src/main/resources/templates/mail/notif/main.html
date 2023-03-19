@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="en">
+    <head>
+        <title th:text="${title}">Notifications</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" th:href="@{|${baseUrl}/favicon.ico|}" />
+    </head>
+    <body>
+        <p th:text="${title}">
+            Dear
+        </p>
+        <p th:if="${content}">
+            <span th:text="${content}">
+                Notification content
+            </span><span th:if="${url}" th:text="#{clique.link.text}">
+                , please click on the URL below to access it:
+            </span>
+        </p>
+        <p th:if="${url}">
+            <a th:with="url=(@{|${baseUrl}|})" th:href="${url}"
+            th:text="${url}">Access link</a>
+        </p>
+        <p>
+            <span th:text="#{email.activation.text2}">Regards, </span>
+            <br/>
+            <em th:text="#{email.signature}">Cperf.</em>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskFile": {
+      "home": {
+        "title": "Project Task Files",
+        "createLabel": "Create a new Project Task File",
+        "createOrEditLabel": "Create or edit a Project Task File",
+        "notFound": "No Project Task Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task File {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "type": "Type",
+      "taskId": "Task Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskFile": {
+      "created": "A new Project Task File is created with identifier {{ param }}",
+      "updated": "A Project Task File is updated with identifier {{ param }}",
+      "deleted": "A Project Task File is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "microgatewayApp": {
+    "microagendaAgendaEvent": {
+      "home": {
+        "title": "Agenda Events",
+        "createLabel": "Create a new Agenda Event",
+        "createOrEditLabel": "Create or edit a Agenda Event",
+        "notFound": "No Agenda Events found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Agenda Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Agenda Event"
+      },
+      "title": "Title",
+      "description": "Description",
+      "location": "Location",
+      "startAt": "Start At",
+      "endAt": "End At",
+      "timeZone": "Time Zone",
+      "editorId": "Editor Id",
+      "editorName": "Editor Name",
+      "createdAt": "Created At",
+      "recurrence": "Recurrence",
+      "reminderValue": "Reminder Value",
+      "reminderUnity": "Reminder Unity",
+      "editorEmail": "Editor Email",
+      "valid": "Valid",
+      "nextReminderAt": "Next Reminder At",
+      "nextOccurenceStartAt": "Next Occurence Start At",
+      "nextOccurenceEndAt": "Next Occurence End At",
+      "langKey": "Lang Key",
+      "startHour": "Start Hour",
+      "dayOfWeek": "Day Of Week",
+      "month": "Month",
+      "dateOfMonth": "Date Of Month",
+      "startYear": "Start Year",
+      "parent": "Parent"
+    }
+  },
+  "microagendaApp": {
+    "microagendaAgendaEvent": {
+      "created": "A new Agenda Event is created with identifier {{ param }}",
+      "updated": "A Agenda Event is updated with identifier {{ param }}",
+      "deleted": "A Agenda Event is deleted with identifier {{ param }}"
+    }
+  }
+}

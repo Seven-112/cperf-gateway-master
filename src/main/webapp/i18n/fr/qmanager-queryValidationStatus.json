@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "QueryValidationStatus": {
+      "null": "",
+      "INITIAL": "Initial",
+      "REJECTED": "Rejeté",
+      "APPROVED": "Approuvé"
+    }
+  }
+}

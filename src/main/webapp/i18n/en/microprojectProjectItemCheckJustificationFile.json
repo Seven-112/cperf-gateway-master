@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectItemCheckJustificationFile": {
+      "home": {
+        "title": "Project Item Check Justification Files",
+        "createLabel": "Create a new Project Item Check Justification File",
+        "createOrEditLabel": "Create or edit a Project Item Check Justification File",
+        "notFound": "No Project Item Check Justification Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Item Check Justification File {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Item Check Justification File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "ticjId": "Ticj Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectItemCheckJustificationFile": {
+      "created": "A new Project Item Check Justification File is created with identifier {{ param }}",
+      "updated": "A Project Item Check Justification File is updated with identifier {{ param }}",
+      "deleted": "A Project Item Check Justification File is deleted with identifier {{ param }}"
+    }
+  }
+}

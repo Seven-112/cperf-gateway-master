@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microagendaEventFile": {
+      "home": {
+        "title": "EventFiles",
+        "createLabel": "Créer un nouveau Event File",
+        "createOrEditLabel": "Créer ou éditer un Event File",
+        "notFound": "Aucun Event File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Event File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Event File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "event": "Event"
+    }
+  },
+  "microagandaApp": {
+    "microagendaEventFile": {
+      "created": "Un nouveau Event File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Event File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Event File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

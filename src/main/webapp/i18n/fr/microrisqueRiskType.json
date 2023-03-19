@@ -1,0 +1,26 @@
+{
+  "microgatewayApp": {
+    "microrisqueRiskType": {
+      "home": {
+        "title": "RiskTypes",
+        "createLabel": "Créer un nouveau Risk Type",
+        "createOrEditLabel": "Créer ou éditer un Risk Type",
+        "notFound": "Aucun Risk Type trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Risk Type {{ id }} ?"
+      },
+      "detail": {
+        "title": "Risk Type"
+      },
+      "name": "Name"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueRiskType": {
+      "created": "Un nouveau Risk Type a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Risk Type avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Risk Type avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

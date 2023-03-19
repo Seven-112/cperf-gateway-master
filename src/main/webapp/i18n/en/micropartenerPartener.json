@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartener": {
+      "home": {
+        "title": "Parteners",
+        "createLabel": "Create a new Partener",
+        "createOrEditLabel": "Create or edit a Partener",
+        "notFound": "No Parteners found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Partener {{ id }}?"
+      },
+      "detail": {
+        "title": "Partener"
+      },
+      "email": "Email",
+      "userId": "User Id",
+      "category": "Category",
+      "name": "Name"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartener": {
+      "created": "A new Partener is created with identifier {{ param }}",
+      "updated": "A Partener is updated with identifier {{ param }}",
+      "deleted": "A Partener is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerExecution": {
+      "home": {
+        "title": "Tender Answer Executions",
+        "createLabel": "Create a new Tender Answer Execution",
+        "createOrEditLabel": "Create or edit a Tender Answer Execution",
+        "notFound": "No Tender Answer Executions found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Tender Answer Execution {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender Answer Execution"
+      },
+      "userId": "User",
+      "validated": "Validated",
+      "comment": "Comment",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerExecution": {
+      "created": "A new Tender Answer Execution is created with identifier {{ param }}",
+      "updated": "A Tender Answer Execution is updated with identifier {{ param }}",
+      "deleted": "A Tender Answer Execution is deleted with identifier {{ param }}"
+    }
+  }
+}

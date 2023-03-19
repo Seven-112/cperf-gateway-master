@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessLogigram": {
+      "home": {
+        "title": "Logigrammes",
+        "createLabel": "Créer une nouvelle logigramme",
+        "createOrEditLabel": "Créer ou éditer un Logigram",
+        "notFound": "Aucune logigramme trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la logigramme {{ id }} ?"
+      },
+      "detail": {
+        "title": "Logigramme"
+      },
+      "source": "Source",
+      "target": "Cible",
+      "sourceHandle": "Poigné source",
+      "targetHandle": "Poigné Cible",
+      "processId": "Processus",
+      "valid": "Valide",
+      "condId": "Condition"
+    }
+  },
+  "microprocessApp": {
+    "microprocessLogigram": {
+      "created": "Une logigramme a été créé avec l'identifiant {{ param }}",
+      "updated": "La logigramme avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La logigramme avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "microgatewayApp": {
+    "microstockChangement": {
+      "home": {
+        "title": "Changements",
+        "createLabel": "Create a new Changement",
+        "createOrEditLabel": "Create or edit a Changement",
+        "notFound": "No Changements found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Changement {{ id }}?"
+      },
+      "detail": {
+        "title": "Changement"
+      },
+      "motif": "Motif",
+      "etat": "Etat",
+      "commentaire": "Commentaire",
+      "fileName": "File Name",
+      "fileId": "File Id",
+      "date": "Date",
+      "consommable": "Consommable",
+      "equipement": "Equipement"
+    }
+  },
+  "microstockApp": {
+    "microstockChangement": {
+      "created": "A new Changement is created with identifier {{ param }}",
+      "updated": "A Changement is updated with identifier {{ param }}",
+      "deleted": "A Changement is deleted with identifier {{ param }}"
+    }
+  }
+}

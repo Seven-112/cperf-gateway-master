@@ -1,0 +1,26 @@
+{
+  "microgatewayApp": {
+    "microrisqueControlMaturity": {
+      "home": {
+        "title": "ControlMaturities",
+        "createLabel": "Créer un nouveau Control Maturity",
+        "createOrEditLabel": "Créer ou éditer un Control Maturity",
+        "notFound": "Aucun Control Maturity trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Control Maturity {{ id }} ?"
+      },
+      "detail": {
+        "title": "Control Maturity"
+      },
+      "label": "Label"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueControlMaturity": {
+      "created": "Un nouveau Control Maturity a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Control Maturity avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Control Maturity avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

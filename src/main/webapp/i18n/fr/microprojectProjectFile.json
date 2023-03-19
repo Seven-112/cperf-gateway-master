@@ -1,0 +1,33 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectFile": {
+      "home": {
+        "title": "ProjectFiles",
+        "createLabel": "Créer un nouveau Project File",
+        "createOrEditLabel": "Créer ou éditer un Project File",
+        "notFound": "Aucun Project File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Project File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Project File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "description": "Description",
+      "fileType": "File Type",
+      "projectId": "Project Id",
+      "userId": "User Id",
+      "userName": "User Name",
+      "userEmail": "User Email"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectFile": {
+      "created": "Un nouveau Project File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Project File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Project File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

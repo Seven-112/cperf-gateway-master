@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskItem": {
+      "home": {
+        "title": "Project Task Items",
+        "createLabel": "Create a new Project Task Item",
+        "createOrEditLabel": "Create or edit a Project Task Item",
+        "notFound": "No Project Task Items found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task Item"
+      },
+      "name": "Name",
+      "taskId": "Task Id",
+      "checked": "Checked",
+      "checkerId": "Checker Id",
+      "checkerName": "Checker Name",
+      "checkerEmail": "Checker Email",
+      "editorId": "Editor Id",
+      "editorEmail": "Editor Email",
+      "editorName": "Editor Name",
+      "required": "Required"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskItem": {
+      "created": "A new Project Task Item is created with identifier {{ param }}",
+      "updated": "A Project Task Item is updated with identifier {{ param }}",
+      "deleted": "A Project Task Item is deleted with identifier {{ param }}"
+    }
+  }
+}

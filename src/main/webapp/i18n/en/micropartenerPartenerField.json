@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerField": {
+      "home": {
+        "title": "Partener Fields",
+        "createLabel": "Create a new Partener Field",
+        "createOrEditLabel": "Create or edit a Partener Field",
+        "notFound": "No Partener Fields found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Partener Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Partener Field"
+      },
+      "val": "Val",
+      "visible": "Visible",
+      "field": "Field",
+      "partener": "Partener"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerField": {
+      "created": "A new Partener Field is created with identifier {{ param }}",
+      "updated": "A Partener Field is updated with identifier {{ param }}",
+      "deleted": "A Partener Field is deleted with identifier {{ param }}"
+    }
+  }
+}

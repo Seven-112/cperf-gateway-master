@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "userFile": {
+      "home": {
+        "title": "Fichiers et Dossiers",
+        "createLabel": "Créer un nouveau dossier",
+        "createOrEditLabel": "Créer ou éditer un dossier",
+        "notFound": "Aucun fichier ou dossier trouvé"
+      },
+      "created": "Un nouveau fichier ou dossier a été créé avec l'identifiant {{ param }}",
+      "updated": "Le fichier ou dossier avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le fichier ou dossier avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le fichier ou dossier {{ id }} ?"
+      },
+      "detail": {
+        "title": "Fichier ou Dossier"
+      },
+      "userId": "ID Utilisateur",
+      "fileId": "ID Fichier",
+      "fileName": "Fichier",
+      "parentId": "Dossier parent",
+      "isFolder": "Un dossier",
+      "isEmploye": "Un(e) Employé(e)"
+    }
+  }
+}

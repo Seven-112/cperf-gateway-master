@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "micropartenerEvaluationCriteria": {
+      "home": {
+        "title": "Critères d'évaluation",
+        "createLabel": "Créer un nouveau critère d'évaluation",
+        "createOrEditLabel": "Créer ou éditer un critère d'évaluation",
+        "notFound": "Aucun critère d'évaluation trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le critère d'évaluation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Critère d'évaluation"
+      },
+      "name": "Nom",
+      "ponderation": "Pondération",
+      "category": "Catégorie"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerEvaluationCriteria": {
+      "created": "Un nouveau critère d'évaluation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le critère d'évaluation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le critère d'évaluation avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

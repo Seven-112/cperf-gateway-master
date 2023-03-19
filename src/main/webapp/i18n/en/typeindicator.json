@@ -1,0 +1,24 @@
+{
+  "microgatewayApp": {
+    "typeindicator": {
+      "home": {
+        "title": "Indicators types",
+        "createLabel": "Create a new indicator type",
+        "createOrEditLabel": "Create or edit an indicator type",
+        "notFound": "No indicator types found"
+      },
+      "created": "A new Indicator type is created with identifier {{ param }}",
+      "updated": "An indicator type is updated with identifier {{ param }}",
+      "deleted": "An indicator type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete indicator type {{ id }}?"
+      },
+      "detail": {
+        "title": "Indicator type"
+      },
+      "name": "Name",
+      "measurable": "Measurable",
+      "valid": "Actif"
+    }
+  }
+}

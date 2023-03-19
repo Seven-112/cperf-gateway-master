@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderProviderSelectionValidation": {
+      "home": {
+        "title": "Selection Validations",
+        "createLabel": "Create a new selection approval",
+        "createOrEditLabel": "Create or edit a selection approval",
+        "notFound": "No selection approval found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete selection approval {{ id }}?"
+      },
+      "detail": {
+        "title": "Selection approval"
+      },
+      "validatorId": "Validator",
+      "approved": "approval",
+      "justification": "Justification",
+      "selection": "Selection"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderProviderSelectionValidation": {
+      "created": "A new selection approval is created with identifier {{ param }}",
+      "updated": "A selection approval is updated with identifier {{ param }}",
+      "deleted": "A selection approval is deleted with identifier {{ param }}"
+    }
+  }
+}

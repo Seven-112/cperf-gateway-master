@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryFieldResponseFile": {
+      "home": {
+        "title": "Query Field Response Files",
+        "createLabel": "Create a new Query Field Response File",
+        "createOrEditLabel": "Create or edit a Query Field Response File",
+        "notFound": "No Query Field Response Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Field Response File {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Field Response File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "queryFieldResponse": "Query Field Response"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryFieldResponseFile": {
+      "created": "A new Query Field Response File is created with identifier {{ param }}",
+      "updated": "A Query Field Response File is updated with identifier {{ param }}",
+      "deleted": "A Query Field Response File is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectProcess": {
+      "home": {
+        "title": "Project Processes",
+        "createLabel": "Create a new Project Process",
+        "createOrEditLabel": "Create or edit a Project Process",
+        "notFound": "No Project Processes found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Process {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Process"
+      },
+      "label": "Label",
+      "description": "Description",
+      "priorityLevel": "Priority Level",
+      "valid": "Valid",
+      "previewStartAt": "Preview Start At",
+      "startAt": "Start At",
+      "previewFinishAt": "Preview Finish At",
+      "finishedAt": "Finished At",
+      "createdAt": "Created At",
+      "startCount": "Start Count",
+      "levelId": "Level Id",
+      "parentId": "Parent Id",
+      "editorId": "Editor Id",
+      "runnableProcessId": "Runnable Process Id",
+      "categoryId": "Category Id",
+      "responsableId": "Responsable Id",
+      "responsableName": "Responsable Name",
+      "responsableEmail": "Responsable Email"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectProcess": {
+      "created": "A new Project Process is created with identifier {{ param }}",
+      "updated": "A Project Process is updated with identifier {{ param }}",
+      "deleted": "A Project Process is deleted with identifier {{ param }}"
+    }
+  }
+}

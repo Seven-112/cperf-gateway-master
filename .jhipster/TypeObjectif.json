@@ -1,0 +1,30 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "evalutationUnity",
+      "fieldType": "ObjectifTypeEvaluationUnity",
+      "fieldValues": "NOTHING,YEAR,MONTH,WEEK,DAY"
+    },
+    {
+      "fieldName": "valid",
+      "fieldType": "Boolean"
+    }
+  ],
+  "changelogDate": "20210206214347",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "type_objectif",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}

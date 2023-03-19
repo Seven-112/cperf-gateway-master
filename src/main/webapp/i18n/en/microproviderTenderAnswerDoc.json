@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerDoc": {
+      "home": {
+        "title": "Documents",
+        "createLabel": "Create a new document",
+        "createOrEditLabel": "Create or edit a document",
+        "notFound": "No document found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete document {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender document"
+      },
+      "name": "Name",
+      "fileId": "File",
+      "tenderAnswer": "Answer",
+      "tenderDoc": "Tender document"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerDoc": {
+      "created": "A new document is created with identifier {{ param }}",
+      "updated": "A document is updated with identifier {{ param }}",
+      "deleted": "A document is deleted with identifier {{ param }}"
+    }
+  }
+}

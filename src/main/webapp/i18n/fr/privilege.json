@@ -1,0 +1,25 @@
+{
+  "microgatewayApp": {
+    "privilege": {
+      "home": {
+        "title": "Privilèges",
+        "createLabel": "Créer un nouveau privilège",
+        "createOrEditLabel": "Créer ou éditer un privilège",
+        "notFound": "Aucun Privilege trouvé"
+      },
+      "created": "Un nouveau privilège a été créé avec l'identifiant {{ param }}",
+      "updated": "Le privilège avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le privilège avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le privilège {{ id }} ?"
+      },
+      "detail": {
+        "title": "Privilège"
+      },
+      "constrained": "Contrainte",
+      "authority": "Rôle",
+      "entity": "Entité",
+      "action": "Action"
+    }
+  }
+}

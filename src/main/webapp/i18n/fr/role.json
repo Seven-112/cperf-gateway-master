@@ -1,0 +1,21 @@
+{
+  "role": {
+    "title": "Profile",
+    "detail": {
+      "title": "Profile"
+    },
+    "ROLE_ADMIN": "Administrateur",
+    "ROLE_USER": "Utilisateur",
+    "ROLE_PROVIDER": "Fournisseur",
+    "ROLE_CLIENT": "Client",
+    "ROLE_ANONYMOUS": "Anonyme",
+    "ADMIN": "Administrateur",
+    "USER": "Utilisateur",
+    "PROVIDER": "Fournisseur",
+    "CLIENT": "Client",
+    "ANONYMOUS": "Anonyme",
+    "EVALUATOR": "Evaluateur",
+    "EMPLOYEE": "Employée",
+    "PROVIDER_VALIDATOR": "Validateur des fournissuers"
+  }
+}

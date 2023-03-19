@@ -1,0 +1,36 @@
+{
+  "microgatewayApp": {
+    "microstreamNotification": {
+      "home": {
+        "title": "Notifications",
+        "createLabel": "Create a new Notification",
+        "createOrEditLabel": "Create or edit a Notification",
+        "notFound": "No Notifications found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Notification {{ id }}?"
+      },
+      "detail": {
+        "title": "Notification"
+      },
+      "title": "Title",
+      "note": "Note",
+      "link": "Link",
+      "type": "Type",
+      "createdAt": "Created At",
+      "senderId": "Sender Id",
+      "targetId": "Target Id",
+      "seen": "Seen",
+      "blankTarget": "Blank Target",
+      "translateKey": "Translate Key",
+      "translateInterpolate": "Translate Interpolate"
+    }
+  },
+  "microstreamApp": {
+    "microstreamNotification": {
+      "created": "A new Notification is created with identifier {{ param }}",
+      "updated": "A Notification is updated with identifier {{ param }}",
+      "deleted": "A Notification is deleted with identifier {{ param }}"
+    }
+  }
+}

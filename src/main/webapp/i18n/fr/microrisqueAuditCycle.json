@@ -1,0 +1,26 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditCycle": {
+      "home": {
+        "title": "Cycles",
+        "createLabel": "Créer un nouveau cycle",
+        "createOrEditLabel": "Créer ou éditer un cycle",
+        "notFound": "Aucun cycle trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le cycle {{ id }} ?"
+      },
+      "detail": {
+        "title": "Cycle"
+      },
+      "name": "Nom"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditCycle": {
+      "created": "Un nouveau cycle a été créé avec l'identifiant {{ param }}",
+      "updated": "Le cycle avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le cycle avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

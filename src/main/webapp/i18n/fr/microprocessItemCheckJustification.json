@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessItemCheckJustification": {
+      "home": {
+        "title": "Justifications",
+        "createLabel": "Créer une nouvelle justification",
+        "createOrEditLabel": "Créer ou éditer une justification",
+        "notFound": "Aucune justification trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la justification {{ id }} ?"
+      },
+      "detail": {
+        "title": "Justification"
+      },
+      "checked": "contrôlée",
+      "taskItemId": "Item",
+      "justification": "Justification",
+      "date": "Date"
+    }
+  },
+  "microprocessApp": {
+    "microprocessItemCheckJustification": {
+      "created": "Un nouvelle justification a été créée avec l'identifiant {{ param }}",
+      "updated": "La justification avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La ustification avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

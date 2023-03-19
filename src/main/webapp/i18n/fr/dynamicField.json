@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "dynamicField": {
+      "home": {
+        "title": "Champs dynamiques",
+        "createLabel": "Créer un nouveau champ dynamique",
+        "createOrEditLabel": "Créer ou éditer un champ dynamique",
+        "notFound": "Aucun champ dynamique trouvé"
+      },
+      "created": "Un nouveau champ dynamique a été créé avec l'identifiant {{ param }}",
+      "updated": "Le champ dynamique avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le champ dynamique avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le champ dynamique {{ id }} ?"
+      },
+      "detail": {
+        "title": "Champ dynamique"
+      },
+      "name": "Libéllé",
+      "type": "Type",
+      "required": "Obligatoire",
+      "docId": "Document",
+      "entityId": "Entité",
+      "tag": "Tag"
+    }
+  }
+}

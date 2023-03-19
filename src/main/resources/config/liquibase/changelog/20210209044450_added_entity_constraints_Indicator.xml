@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Indicator.
+    -->
+    <changeSet id="20210209044450-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="typeindicator_id"
+                                 baseTableName="indicator"
+                                 constraintName="fk_indicator_typeindicator_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="typeindicator"/>
+
+        <addForeignKeyConstraint baseColumnNames="objectif_id"
+                                 baseTableName="indicator"
+                                 constraintName="fk_indicator_objectif_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="objectif"/>
+
+        <addForeignKeyConstraint baseColumnNames="parent_id"
+                                 baseTableName="indicator"
+                                 constraintName="fk_indicator_parent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="indicator"/>
+
+    </changeSet>
+</databaseChangeLog>

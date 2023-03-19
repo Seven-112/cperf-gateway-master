@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerCategory": {
+      "home": {
+        "title": "Partener Categories",
+        "createLabel": "Create a new Partener Category",
+        "createOrEditLabel": "Create or edit a Partener Category",
+        "notFound": "No Partener Categories found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Partener Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Partener Category"
+      },
+      "name": "Name",
+      "role": "Role",
+      "noteMin": "Note Min",
+      "noteMax": "Note Max",
+      "parent": "Parent"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerCategory": {
+      "created": "A new Partener Category is created with identifier {{ param }}",
+      "updated": "A Partener Category is updated with identifier {{ param }}",
+      "deleted": "A Partener Category is deleted with identifier {{ param }}"
+    }
+  }
+}

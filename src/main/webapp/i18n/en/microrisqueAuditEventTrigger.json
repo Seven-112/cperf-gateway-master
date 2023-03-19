@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditEventTrigger": {
+      "home": {
+        "title": "Audit Event Triggers",
+        "createLabel": "Create a new Audit Event Trigger",
+        "createOrEditLabel": "Create or edit a Audit Event Trigger",
+        "notFound": "No Audit Event Triggers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Audit Event Trigger {{ id }}?"
+      },
+      "detail": {
+        "title": "Audit Event Trigger"
+      },
+      "editorId": "Editor Id",
+      "createdAt": "Created At",
+      "name": "Name",
+      "recurrence": "Recurrence",
+      "disabled": "Disabled",
+      "editorName": "Editor Name",
+      "firstStartedAt": "First Started At",
+      "nextStartAt": "Next Start At",
+      "startCount": "Start Count",
+      "audit": "Audit"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditEventTrigger": {
+      "created": "A new Audit Event Trigger is created with identifier {{ param }}",
+      "updated": "A Audit Event Trigger is updated with identifier {{ param }}",
+      "deleted": "A Audit Event Trigger is deleted with identifier {{ param }}"
+    }
+  }
+}

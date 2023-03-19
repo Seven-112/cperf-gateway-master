@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskItem": {
+      "home": {
+        "title": "Points de contrôle",
+        "createLabel": "Créer un nouveau point de contrôle",
+        "createOrEditLabel": "Créer ou éditer un point de contrôle",
+        "notFound": "Aucun point de contrôle trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le point de contrôle {{ id }} ?"
+      },
+      "detail": {
+        "title": "Point de contrôle"
+      },
+      "name": "Nom",
+      "taskId": "Tâche",
+      "checked": "Coché",
+      "checkerId": "Contrôleur id",
+      "checkerName": "Côntroleur",
+      "checkerEmail": "Email Contrôleur",
+      "editorId": "Editeur",
+      "editorEmail": "Email éditeur",
+      "editorName": "Nome éditeur",
+      "required": "Obligatoire"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskItem": {
+      "created": "Un nouveau point de contrôle a été créé avec l'identifiant {{ param }}",
+      "updated": "Le point de contrôle avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le point de contrôle avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

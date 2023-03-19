@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderFile": {
+      "home": {
+        "title": "Tender Files",
+        "createLabel": "Create a new Tender File",
+        "createOrEditLabel": "Create or edit a Tender File",
+        "notFound": "No Tender Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Tender File {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender File"
+      },
+      "name": "Name",
+      "fileId": "File Id",
+      "tender": "Tender"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderFile": {
+      "created": "A new Tender File is created with identifier {{ param }}",
+      "updated": "A Tender File is updated with identifier {{ param }}",
+      "deleted": "A Tender File is deleted with identifier {{ param }}"
+    }
+  }
+}

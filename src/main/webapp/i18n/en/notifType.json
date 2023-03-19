@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "NotifType": {
+      "null": "",
+      "MESSAGE": "MESSAGE",
+      "INFO": "INFO",
+      "TOAST": "TOAST"
+    }
+  }
+}

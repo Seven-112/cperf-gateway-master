@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryClientType": {
+      "home": {
+        "title": "Types de clients",
+        "createLabel": "Créer un nouveau type de client",
+        "createOrEditLabel": "Créer ou éditer un type de client",
+        "notFound": "Aucune type de client trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le type de  client {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type de  client {"
+      },
+      "name": "Nom",
+      "description": "Description"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryClientType": {
+      "created": "Un nouveau type de  client a été créé avec l'identifiant {{ param }}",
+      "updated": "Le type de  client avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le type de  client avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

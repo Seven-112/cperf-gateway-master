@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerFieldFile": {
+      "home": {
+        "title": "Partener Field Files",
+        "createLabel": "Create a new Partener Field File",
+        "createOrEditLabel": "Create or edit a Partener Field File",
+        "notFound": "No Partener Field Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Partener Field File {{ id }}?"
+      },
+      "detail": {
+        "title": "Partener Field File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "partenerField": "Partener Field"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerFieldFile": {
+      "created": "A new Partener Field File is created with identifier {{ param }}",
+      "updated": "A Partener Field File is updated with identifier {{ param }}",
+      "deleted": "A Partener Field File is deleted with identifier {{ param }}"
+    }
+  }
+}

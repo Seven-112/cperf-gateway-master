@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microproviderTender": {
+      "home": {
+        "title": "Appels d'offre",
+        "createLabel": "Créer un appel d'offre",
+        "createOrEditLabel": "Créer ou éditer un appel d'offre",
+        "notFound": "Aucun appel d'offre trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'appel d'offre {{ id }} ?"
+      },
+      "detail": {
+        "title": "Appel d'offre"
+      },
+      "userId": "Utilisateur",
+      "targetCategoryId": "Catégorie cible",
+      "createdAt": "Date de création",
+      "expireAt": "Date d'expiration",
+      "content": "Contenu",
+      "selectedProviderUserId": "Fournisseur sélectionné",
+      "executionDeleyRequired": "Délai d'exécution",
+      "validSelection": "Selection validée",
+      "object": "Objet",
+      "published": "Publication"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTender": {
+      "created": "Un nouvel appel d'offre a été créé avec l'identifiant {{ param }}",
+      "updated": "L'appel d'offre avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'appel d'offre avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

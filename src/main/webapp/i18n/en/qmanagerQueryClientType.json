@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryClientType": {
+      "home": {
+        "title": "Query Client Types",
+        "createLabel": "Create a new Query Client Type",
+        "createOrEditLabel": "Create or edit a Query Client Type",
+        "notFound": "No Query Client Types found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Client Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Client Type"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryClientType": {
+      "created": "A new Query Client Type is created with identifier {{ param }}",
+      "updated": "A Query Client Type is updated with identifier {{ param }}",
+      "deleted": "A Query Client Type is deleted with identifier {{ param }}"
+    }
+  }
+}

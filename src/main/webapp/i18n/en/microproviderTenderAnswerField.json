@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerField": {
+      "home": {
+        "title": "Tender Answer Fields",
+        "createLabel": "Create a new Tender Answer Field",
+        "createOrEditLabel": "Create or edit a Tender Answer Field",
+        "notFound": "No Tender Answer Fields found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Tender Answer Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Tender Answer Field"
+      },
+      "val": "Val",
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "fieldId": "Field Id",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerField": {
+      "created": "A new Tender Answer Field is created with identifier {{ param }}",
+      "updated": "A Tender Answer Field is updated with identifier {{ param }}",
+      "deleted": "A Tender Answer Field is deleted with identifier {{ param }}"
+    }
+  }
+}

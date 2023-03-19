@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerCategoryEvaluator": {
+      "home": {
+        "title": "Partener Category Evaluators",
+        "createLabel": "Create a new Partener Category Evaluator",
+        "createOrEditLabel": "Create or edit a Partener Category Evaluator",
+        "notFound": "No Partener Category Evaluators found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Partener Category Evaluator {{ id }}?"
+      },
+      "detail": {
+        "title": "Partener Category Evaluator"
+      },
+      "userId": "User Id",
+      "category": "Category"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerCategoryEvaluator": {
+      "created": "A new Partener Category Evaluator is created with identifier {{ param }}",
+      "updated": "A Partener Category Evaluator is updated with identifier {{ param }}",
+      "deleted": "A Partener Category Evaluator is deleted with identifier {{ param }}"
+    }
+  }
+}

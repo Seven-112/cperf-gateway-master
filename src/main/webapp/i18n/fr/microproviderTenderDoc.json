@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderDoc": {
+      "home": {
+        "title": "TenderDocs",
+        "createLabel": "Créer un nouveau Tender Doc",
+        "createOrEditLabel": "Créer ou éditer un Tender Doc",
+        "notFound": "Aucun Tender Doc trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tender Doc {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tender Doc"
+      },
+      "description": "Description",
+      "optional": "Optional",
+      "tender": "Tender"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderDoc": {
+      "created": "Un nouveau Tender Doc a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tender Doc avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tender Doc avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

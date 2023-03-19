@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerExecution": {
+      "home": {
+        "title": "TenderAnswerExecutions",
+        "createLabel": "Créer un nouveau Tender Answer Execution",
+        "createOrEditLabel": "Créer ou éditer un Tender Answer Execution",
+        "notFound": "Aucun Tender Answer Execution trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tender Answer Execution {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tender Answer Execution"
+      },
+      "userId": "User",
+      "validated": "Validated",
+      "comment": "Commentaire",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerExecution": {
+      "created": "Un nouveau Tender Answer Execution a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tender Answer Execution avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tender Answer Execution avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microstockEngeneering": {
+      "home": {
+        "title": "Engeneerings",
+        "createLabel": "Créer un nouveau Engeneering",
+        "createOrEditLabel": "Créer ou éditer un Engeneering",
+        "notFound": "Aucun Engeneering trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Engeneering {{ id }} ?"
+      },
+      "detail": {
+        "title": "Engeneering"
+      },
+      "expertise": "Expertise",
+      "commentaire": "Commentaire",
+      "equipement": "Equipement"
+    }
+  },
+  "microstockApp": {
+    "microstockEngeneering": {
+      "created": "Un nouveau Engeneering a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Engeneering avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Engeneering avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

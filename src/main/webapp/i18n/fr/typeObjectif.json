@@ -1,0 +1,24 @@
+{
+  "microgatewayApp": {
+    "typeObjectif": {
+      "home": {
+        "title": "Types d'objectifs",
+        "createLabel": "Créer un nouveau type d'objectif",
+        "createOrEditLabel": "Créer ou éditer un type d'objectif",
+        "notFound": "Aucun type d'objectif trouvé"
+      },
+      "created": "Un nouveau type d'objectif a été créé avec l'identifiant {{ param }}",
+      "updated": "Le type d'objectif avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le type d'objectifavec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le type d'objectif {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type d'objectif"
+      },
+      "name": "Nom",
+      "evalutationUnity": "Unité d'évaluation",
+      "valid": "Valide"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessJustification": {
+      "home": {
+        "title": "Justifications",
+        "createLabel": "Créer une nouvelle justification",
+        "createOrEditLabel": "Créer ou éditer une Jjstification",
+        "notFound": "Aucune justification trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la justification {{ id }} ?"
+      },
+      "detail": {
+        "title": "Justification"
+      },
+      "content": "Contenu",
+      "fileId": "Fichier",
+      "taskId": "Tâche",
+      "processId": "Processus",
+      "reason": "Raison",
+      "accepted": "Acceptée",
+      "editorId": "Editeur"
+    }
+  },
+  "microprocessApp": {
+    "microprocessJustification": {
+      "created": "Une nouvelle justification a été créé avec l'identifiant {{ param }}",
+      "updated": "La justification avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La justification avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "DynamicFieldType",
+      "fieldValues": "TEXT,NUMBER,BOOLEAN,DATE,DATETIME,FILE"
+    },
+    {
+      "fieldName": "required",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "docId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "entityId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "tag",
+      "fieldType": "DynamicFieldTag",
+      "fieldValues": "TENDER,TRAKING_EXPEDITION"
+    }
+  ],
+  "changelogDate": "20210921035434",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "dynamic_field",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}

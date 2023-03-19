@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryUserValidator": {
+      "home": {
+        "title": "Valideurs",
+        "createLabel": "Créer un nouveau valideur",
+        "createOrEditLabel": "Créer ou éditer un valideur",
+        "notFound": "Aucun valideur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le valideur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Valideur"
+      },
+      "validatorId": "Id",
+      "previewValidatorId": "Prévalideur",
+      "validationDeleyLimit": "Délai limite de validation",
+      "validationDeleyLimitUnity": "Unité du délai",
+      "queryUser": "Utilisateur"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryUserValidator": {
+      "created": "Un nouveau valideur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le valideur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le valideur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

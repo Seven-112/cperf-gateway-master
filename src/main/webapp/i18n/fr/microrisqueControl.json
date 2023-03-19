@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microrisqueControl": {
+      "home": {
+        "title": "Controls",
+        "createLabel": "Créer un nouveau Control",
+        "createOrEditLabel": "Créer ou éditer un Control",
+        "notFound": "Aucun Control trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Control {{ id }} ?"
+      },
+      "detail": {
+        "title": "Control"
+      },
+      "description": "Description",
+      "validationRequired": "Validation Required",
+      "type": "Type",
+      "maturity": "Maturity",
+      "risk": "Risk"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueControl": {
+      "created": "Un nouveau Control a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Control avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Control avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

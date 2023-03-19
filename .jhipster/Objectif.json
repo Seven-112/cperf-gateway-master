@@ -1,0 +1,83 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "typeObjectif",
+      "otherEntityName": "typeObjectif",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "objectif"
+    },
+    {
+      "relationshipName": "fonction",
+      "otherEntityName": "fonction",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "objectif"
+    },
+    {
+      "relationshipName": "department",
+      "otherEntityName": "department",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "objectif"
+    },
+    {
+      "relationshipName": "employee",
+      "otherEntityName": "employee",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "objectif"
+    },
+    {
+      "relationshipName": "parent",
+      "otherEntityName": "objectif",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "objectif"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "delay",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "categorie",
+      "fieldType": "ObjectifCategorie",
+      "fieldValues": "FONCTIONAL,COLLECTIVE,INDIVIDUAL",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "averagePercentage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "ponderation",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "realized",
+      "fieldType": "Boolean"
+    }
+  ],
+  "changelogDate": "20210209040420",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "objectif",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}

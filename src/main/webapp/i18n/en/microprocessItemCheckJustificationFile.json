@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprocessItemCheckJustificationFile": {
+      "home": {
+        "title": "Item Check Justification Files",
+        "createLabel": "Create a new Item Check Justification File",
+        "createOrEditLabel": "Create or edit a Item Check Justification File",
+        "notFound": "No Item Check Justification Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Item Check Justification File {{ id }}?"
+      },
+      "detail": {
+        "title": "Item Check Justification File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "ticjId": "Ticj Id"
+    }
+  },
+  "microprocessApp": {
+    "microprocessItemCheckJustificationFile": {
+      "created": "A new Item Check Justification File is created with identifier {{ param }}",
+      "updated": "A Item Check Justification File is updated with identifier {{ param }}",
+      "deleted": "A Item Check Justification File is deleted with identifier {{ param }}"
+    }
+  }
+}

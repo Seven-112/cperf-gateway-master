@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microstockEquipement": {
+      "home": {
+        "title": "Equipements",
+        "createLabel": "Create a new Equipement",
+        "createOrEditLabel": "Create or edit a Equipement",
+        "notFound": "No Equipements found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Equipement {{ id }}?"
+      },
+      "detail": {
+        "title": "Equipement"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "dateAjout": "Date Ajout",
+      "dateRemplacement": "Date Remplacement",
+      "changement": "Changement",
+      "engeneering": "Engeneering",
+      "composantDe": "Composant De"
+    }
+  },
+  "microstockApp": {
+    "microstockEquipement": {
+      "created": "A new Equipement is created with identifier {{ param }}",
+      "updated": "A Equipement is updated with identifier {{ param }}",
+      "deleted": "A Equipement is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditUser": {
+      "home": {
+        "title": "Users",
+        "createLabel": "Create a new user",
+        "createOrEditLabel": "Create or edit a user",
+        "notFound": "No users found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete user {{ id }}?"
+      },
+      "detail": {
+        "title": "User"
+      },
+      "auditId": "Audit Id",
+      "userId": "User Id",
+      "userFullName": "User Full Name",
+      "userEmail": "User Email",
+      "role": "Role"
+    }
+  },
+  "microriskApp": {
+    "microrisqueAuditUser": {
+      "created": "A new user is created with identifier {{ param }}",
+      "updated": "A user is updated with identifier {{ param }}",
+      "deleted": "A user is deleted with identifier {{ param }}"
+    }
+  }
+}

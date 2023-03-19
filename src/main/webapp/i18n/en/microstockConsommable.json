@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microstockConsommable": {
+      "home": {
+        "title": "Consommables",
+        "createLabel": "Create a new Consommable",
+        "createOrEditLabel": "Create or edit a Consommable",
+        "notFound": "No Consommables found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Consommable {{ id }}?"
+      },
+      "detail": {
+        "title": "Consommable"
+      },
+      "nom": "Nom",
+      "description": "Description",
+      "dateAjout": "Date Ajout",
+      "dateRemplacement": "Date Remplacement",
+      "quantite": "Quantite",
+      "changement": "Changement",
+      "composantDe": "Composant De"
+    }
+  },
+  "microstockApp": {
+    "microstockConsommable": {
+      "created": "A new Consommable is created with identifier {{ param }}",
+      "updated": "A Consommable is updated with identifier {{ param }}",
+      "deleted": "A Consommable is deleted with identifier {{ param }}"
+    }
+  }
+}

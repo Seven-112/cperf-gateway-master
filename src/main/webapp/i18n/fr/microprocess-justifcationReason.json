@@ -1,0 +1,11 @@
+{
+  "microgatewayApp": {
+    "JustifcationReason": {
+      "null": "",
+      "NOSTARTED": "Non démarrée",
+      "CANCELED": "Annulée",
+      "LATER_COMPLETED": "terminée tardivement",
+      "LATER_UNFINISH": "Non terminée et délai dépassée"
+    }
+  }
+}

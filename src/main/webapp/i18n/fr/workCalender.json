@@ -1,0 +1,43 @@
+{
+  "microgatewayApp": {
+    "workCalender": {
+      "home": {
+        "title": "Calendriers",
+        "createLabel": "Créer un nouveau calendrier",
+        "createOrEditLabel": "Créer ou éditer un calendrier",
+        "notFound": "Aucun calendrier trouvé"
+      },
+      "created": "Un nouveau calendrier a été créé avec l'identifiant {{ param }}",
+      "updated": "Le calendrier avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le calendrier avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le calendrier {{ id }} ?"
+      },
+      "detail": {
+        "title": "Calendrier"
+      },
+      "dayNumber": "Jour",
+      "startTime": "Début",
+      "endTime": "Fin",
+      "description": "Définissez les heures de travail",
+      "day": {
+        "0": "Samedi",
+        "1": "Lundi",
+        "2": "Mardi",
+        "3": "Mercredi",
+        "4": "Jeudi",
+        "5": "Vendredi",
+        "6": "Dimanche"
+      },
+      "isoDay": {
+        "1": "Lundi",
+        "2": "Mardi",
+        "3": "Mercredi",
+        "4": "Jeudi",
+        "5": "Vendredi",
+        "6": "Samedi",
+        "7": "Dimanche"
+      }
+    }
+  }
+}

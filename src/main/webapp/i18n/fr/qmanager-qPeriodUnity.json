@@ -1,0 +1,13 @@
+{
+  "microgatewayApp": {
+    "QPeriodUnity": {
+      "null": "",
+      "SECOND": "Secondes",
+      "MINUTE": "Minutes",
+      "HOUR": "Heures",
+      "DAY": "Jours",
+      "MONTH": "Mois",
+      "YEAR": "Années"
+    }
+  }
+}

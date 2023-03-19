@@ -1,0 +1,23 @@
+{
+  "microgatewayApp": {
+    "modelEntity": {
+      "home": {
+        "title": "Entitiés",
+        "createLabel": "Créer une nouvelle  Entité",
+        "createOrEditLabel": "Créer ou éditer une entité",
+        "notFound": "Aucune entité trouvé"
+      },
+      "created": "Une nouvelle entité a été créé avec l'identifiant {{ param }}",
+      "updated": "L'ntité avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'ntité avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer l'entité {{ id }} ?"
+      },
+      "detail": {
+        "title": " Entité"
+      },
+      "entity": "Entité",
+      "name": "Nom"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryFile": {
+      "home": {
+        "title": "Query Files",
+        "createLabel": "Create a new Query File",
+        "createOrEditLabel": "Create or edit a Query File",
+        "notFound": "No Query Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query File {{ id }}?"
+      },
+      "detail": {
+        "title": "Query File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "query": "Query"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryFile": {
+      "created": "A new Query File is created with identifier {{ param }}",
+      "updated": "A Query File is updated with identifier {{ param }}",
+      "deleted": "A Query File is deleted with identifier {{ param }}"
+    }
+  }
+}

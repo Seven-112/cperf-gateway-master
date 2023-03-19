@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryFieldResponse": {
+      "home": {
+        "title": "Query Field Responses",
+        "createLabel": "Create a new Query Field Response",
+        "createOrEditLabel": "Create or edit a Query Field Response",
+        "notFound": "No Query Field Responses found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Field Response {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Field Response"
+      },
+      "val": "Val",
+      "fieldId": "Field Id",
+      "instance": "Instance"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryFieldResponse": {
+      "created": "A new Query Field Response is created with identifier {{ param }}",
+      "updated": "A Query Field Response is updated with identifier {{ param }}",
+      "deleted": "A Query Field Response is deleted with identifier {{ param }}"
+    }
+  }
+}

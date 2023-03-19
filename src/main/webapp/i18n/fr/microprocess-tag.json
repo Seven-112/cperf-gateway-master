@@ -1,0 +1,11 @@
+{
+  "microgatewayApp": {
+    "Tag": {
+      "null": "",
+      "FILEDESCRIPTION": "FILEDESCRIPTION",
+      "FILEVALIDATION": "FILEVALIDATION",
+      "TASKSTARTING": "TASKSTARTING",
+      "TASKUSERS": "TASKUSERS"
+    }
+  }
+}

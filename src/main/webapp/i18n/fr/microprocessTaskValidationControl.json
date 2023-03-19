@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskValidationControl": {
+      "home": {
+        "title": "Contrôles de validation",
+        "createLabel": "Créer un nouveau côntrol de validation",
+        "createOrEditLabel": "Créer ou éditer un côntrol de validation",
+        "notFound": "Aucun côntrol de validation trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le côntrol de validation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Côntrol de validation"
+      },
+      "label": "Libellé",
+      "required": "Obligatoire",
+      "valid": "Valide",
+      "task": "Tâche"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskValidationControl": {
+      "created": "Un nouveau côntrol de validation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le côntrol de validation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le côntrol de validation avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

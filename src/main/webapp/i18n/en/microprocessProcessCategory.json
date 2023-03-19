@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "microprocessProcessCategory": {
+      "home": {
+        "title": "Categories",
+        "createLabel": "Create a new category",
+        "createOrEditLabel": "Create or edit a category",
+        "notFound": "No categories found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete category {{ id }}?"
+      },
+      "detail": {
+        "title": "Category"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  },
+  "microprocessApp": {
+    "microprocessProcessCategory": {
+      "created": "A new category is created with identifier {{ param }}",
+      "updated": "A category is updated with identifier {{ param }}",
+      "deleted": "A category is deleted with identifier {{ param }}"
+    }
+  }
+}

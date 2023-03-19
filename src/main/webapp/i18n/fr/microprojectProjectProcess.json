@@ -1,0 +1,43 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectProcess": {
+      "home": {
+        "title": "Projets",
+        "createLabel": "Créer un nouveau projet",
+        "createOrEditLabel": "Créer ou éditer un projet",
+        "notFound": "Aucun projet trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le projet {{ id }} ?"
+      },
+      "detail": {
+        "title": "Projet"
+      },
+      "label": "Libellé",
+      "description": "Description",
+      "priorityLevel": "Niveau de priorité",
+      "valid": "Valid",
+      "previewStartAt": "Preview Start At",
+      "startAt": "Start At",
+      "previewFinishAt": "Preview Finish At",
+      "finishedAt": "Finished At",
+      "createdAt": "Created At",
+      "startCount": "Start Count",
+      "levelId": "Level Id",
+      "parentId": "Parent Id",
+      "editorId": "Editor Id",
+      "runnableProcessId": "Runnable Process Id",
+      "categoryId": "Category Id",
+      "responsableId": "Responsable Id",
+      "responsableName": "Responsable Name",
+      "responsableEmail": "Responsable Email"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectProcess": {
+      "created": "Un nouveau projet a été créé avec l'identifiant {{ param }}",
+      "updated": "Le projet avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le projet avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

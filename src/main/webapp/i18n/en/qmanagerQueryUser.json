@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryUser": {
+      "home": {
+        "title": "Query Users",
+        "createLabel": "Create a new Query User",
+        "createOrEditLabel": "Create or edit a Query User",
+        "notFound": "No Query Users found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query User {{ id }}?"
+      },
+      "detail": {
+        "title": "Query User"
+      },
+      "userId": "User Id",
+      "query": "Query"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryUser": {
+      "created": "A new Query User is created with identifier {{ param }}",
+      "updated": "A Query User is updated with identifier {{ param }}",
+      "deleted": "A Query User is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskItem": {
+      "home": {
+        "title": "Items",
+        "createLabel": "Créer un nouvel item",
+        "createOrEditLabel": "Créer ou éditer un item",
+        "notFound": "Aucun item trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le item {{ id }} ?"
+      },
+      "detail": {
+        "title": "Item"
+      },
+      "name": "Nom",
+      "taskId": "Tâche",
+      "checked": "Coché",
+      "checkerId": "Id cocheur",
+      "checkerName": "Cocheur",
+      "checkerEmail": "Email cocheur",
+      "editorId": "Id éditeur",
+      "editorEmail": "Email éditeur",
+      "editorName": "Editeur",
+      "required": "Obligatoire"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskItem": {
+      "created": "Un nouveau item a été créé avec l'identifiant {{ param }}",
+      "updated": "L'item avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'item avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

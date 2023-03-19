@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "TaskUserRole": {
+      "null": "",
+      "EXCEUTOR": "Exécuteur",
+      "VALIDATOR": "valideur",
+      "SUBMITOR": "Soumissionnaire"
+    }
+  }
+}

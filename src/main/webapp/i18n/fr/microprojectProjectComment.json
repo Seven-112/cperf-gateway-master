@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectComment": {
+      "home": {
+        "title": "Commentaires",
+        "createLabel": "Créer un nouveau commentaire",
+        "createOrEditLabel": "Créer ou éditer un commentaire",
+        "notFound": "Aucun commentaire trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le commentaire {{ id }} ?"
+      },
+      "detail": {
+        "title": "Commentaire"
+      },
+      "projectId": "Projet",
+      "userId": "Id utilisateur",
+      "userName": "Utilisateur",
+      "userEmail": "Email utilisateur",
+      "content": "Contenu"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectComment": {
+      "created": "Un nouveau commentaire a été créé avec l'identifiant {{ param }}",
+      "updated": "Le commentaire avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le commentaire avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

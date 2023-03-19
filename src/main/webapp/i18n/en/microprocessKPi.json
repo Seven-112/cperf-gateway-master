@@ -1,0 +1,43 @@
+{
+  "microgatewayApp": {
+    "microprocessKPi": {
+      "home": {
+        "title": "KPIS",
+        "createLabel": "Create a new KPI",
+        "createOrEditLabel": "Create or edit a KPI",
+        "notFound": "No KPIS found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete KPI {{ id }}?"
+      },
+      "detail": {
+        "title": "KPI"
+      },
+      "userId": "User Id",
+      "dte": "Dte",
+      "executed": "Executed",
+      "executedRate": "Executed Rate",
+      "executedLate": "Executed Late",
+      "executedLateRate": "Executed Late Rate",
+      "totalExecuted": "Total Executed",
+      "totalExecutedRate": "Total Executed Rate",
+      "started": "Started",
+      "startedRate": "Started Rate",
+      "startedLate": "Started Late",
+      "startedLateRate": "Started Late Rate",
+      "totalStarted": "Total Started",
+      "totalStartedRate": "Total Started Rate",
+      "noStarted": "No Started",
+      "noStartedRate": "No Started Rate",
+      "executionLevel": "Execution Level",
+      "executionLevelRate": "Execution Level Rate"
+    }
+  },
+  "microprocessApp": {
+    "microprocessKPi": {
+      "created": "A new KPI is created with identifier {{ param }}",
+      "updated": "A KPI is updated with identifier {{ param }}",
+      "deleted": "A KPI is deleted with identifier {{ param }}"
+    }
+  }
+}

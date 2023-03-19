@@ -1,0 +1,39 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditRecommendation": {
+      "home": {
+        "title": "Recommandations",
+        "createLabel": "Créer une nouvelle recommandation",
+        "createOrEditLabel": "Créer ou éditer une recommandation",
+        "notFound": "Aucune recommandation trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la recommandation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Recommandation"
+      },
+      "auditorId": "Id Auditeur",
+      "auditorName": "Auditeur",
+      "auditorEmail": "Email Auditeur",
+      "auditId": "Id Audit",
+      "status": "Statut",
+      "content": "Contenu",
+      "responsableId": "Id Responsable",
+      "responsableName": "Responsable",
+      "responsableEmail": "Email Responsable",
+      "dateLimit": "Date limite",
+      "editAt": "Date d'édition",
+      "executedAt": "Date d'exécution",
+      "entityId": "Id Entitité",
+      "entiyName": "Entité"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditRecommendation": {
+      "created": "Une nouvelle recommandation a été créée avec l'identifiant {{ param }}",
+      "updated": "La recommandation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La recommandation avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

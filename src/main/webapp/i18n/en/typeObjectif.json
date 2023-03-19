@@ -1,0 +1,24 @@
+{
+  "microgatewayApp": {
+    "typeObjectif": {
+      "home": {
+        "title": "Type Objectifs",
+        "createLabel": "Create a new Type Objectif",
+        "createOrEditLabel": "Create or edit a Type Objectif",
+        "notFound": "No Type Objectifs found"
+      },
+      "created": "A new Type Objectif is created with identifier {{ param }}",
+      "updated": "A Type Objectif is updated with identifier {{ param }}",
+      "deleted": "A Type Objectif is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Type Objectif {{ id }}?"
+      },
+      "detail": {
+        "title": "Type Objectif"
+      },
+      "name": "Name",
+      "evalutationUnity": "Evalutation Unity",
+      "valid": "Actif"
+    }
+  }
+}

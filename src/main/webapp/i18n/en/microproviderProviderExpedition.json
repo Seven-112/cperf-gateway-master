@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microproviderProviderExpedition": {
+      "home": {
+        "title": "Provider Expeditions",
+        "createLabel": "Create a new Provider Expedition",
+        "createOrEditLabel": "Create or edit a Provider Expedition",
+        "notFound": "No Provider Expeditions found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Provider Expedition {{ id }}?"
+      },
+      "detail": {
+        "title": "Provider Expedition"
+      },
+      "countryOrigin": "Country Origin",
+      "departureDate": "Departure Date",
+      "portArivalDate": "Port Arival Date",
+      "siteDeliveryDate": "Site Delivery Date",
+      "readOnly": "Read Only",
+      "previewDepatureDate": "Preview Depature Date",
+      "previewPortArivalDate": "Preview Port Arival Date",
+      "previewSiteDeliveryDate": "Preview Site Delivery Date",
+      "transporter": "Transporter",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderProviderExpedition": {
+      "created": "A new Provider Expedition is created with identifier {{ param }}",
+      "updated": "A Provider Expedition is updated with identifier {{ param }}",
+      "deleted": "A Provider Expedition is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "microgatewayApp": {
+    "micropeopleEmployee": {
+      "home": {
+        "title": "Employés",
+        "createLabel": "Créer un nouvel employé",
+        "createOrEditLabel": "Créer ou éditer un employé",
+        "notFound": "Aucun employé trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'employé {{ id }} ?"
+      },
+      "detail": {
+        "title": "Employé"
+      },
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "phoneNumber": "Téléphone",
+      "salary": "Salaire",
+      "fonction": "Poste",
+      "userId": "Compte Utilisateur",
+      "hireDate": "Date de naissance",
+      "photo": "Photo",
+      "managerId": "N+1",
+      "department": "Direction"
+    }
+  },
+  "micropeopleApp": {
+    "micropeopleEmployee": {
+      "created": "Un nouvel employé a été créé avec l'identifiant {{ param }}",
+      "updated": "L'employé avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'employé avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

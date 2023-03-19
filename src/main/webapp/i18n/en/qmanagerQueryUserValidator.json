@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryUserValidator": {
+      "home": {
+        "title": "Query User Validators",
+        "createLabel": "Create a new Query User Validator",
+        "createOrEditLabel": "Create or edit a Query User Validator",
+        "notFound": "No Query User Validators found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query User Validator {{ id }}?"
+      },
+      "detail": {
+        "title": "Query User Validator"
+      },
+      "validatorId": "Validator Id",
+      "previewValidatorId": "Preview Validator Id",
+      "validationDeleyLimit": "Validation Deley Limit",
+      "validationDeleyLimitUnity": "Validation Deley Limit Unity",
+      "queryUser": "Query User"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryUserValidator": {
+      "created": "A new Query User Validator is created with identifier {{ param }}",
+      "updated": "A Query User Validator is updated with identifier {{ param }}",
+      "deleted": "A Query User Validator is deleted with identifier {{ param }}"
+    }
+  }
+}

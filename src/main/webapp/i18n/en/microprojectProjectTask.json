@@ -1,0 +1,54 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTask": {
+      "home": {
+        "title": "Project Tasks",
+        "createLabel": "Create a new Project Task",
+        "createOrEditLabel": "Create or edit a Project Task",
+        "notFound": "No Project Tasks found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task"
+      },
+      "name": "Name",
+      "description": "Description",
+      "nbMinuites": "Nb Minuites",
+      "nbHours": "Nb Hours",
+      "nbDays": "Nb Days",
+      "nbMonths": "Nb Months",
+      "nbYears": "Nb Years",
+      "startAt": "Start At",
+      "status": "Status",
+      "priorityLevel": "Priority Level",
+      "type": "Type",
+      "valid": "Valid",
+      "finishAt": "Finish At",
+      "startWithProcess": "Start With Process",
+      "processId": "Process Id",
+      "parentId": "Parent Id",
+      "taskModelId": "Task Model Id",
+      "pauseAt": "Pause At",
+      "nbPause": "Nb Pause",
+      "logigramPosX": "Logigram Pos X",
+      "logigramPosY": "Logigram Pos Y",
+      "groupId": "Group Id",
+      "riskId": "Risk Id",
+      "manualMode": "Manual Mode",
+      "sheduledStartAt": "Sheduled Start At",
+      "sheduledStartHour": "Sheduled Start Hour",
+      "sheduledStartMinute": "Sheduled Start Minute",
+      "startupTaskId": "Startup Task Id",
+      "ponderation": "Ponderation"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTask": {
+      "created": "A new Project Task is created with identifier {{ param }}",
+      "updated": "A Project Task is updated with identifier {{ param }}",
+      "deleted": "A Project Task is deleted with identifier {{ param }}"
+    }
+  }
+}

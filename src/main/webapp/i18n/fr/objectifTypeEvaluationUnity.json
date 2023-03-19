@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "ObjectifTypeEvaluationUnity": {
+      "null": "",
+      "NOTHING": "NOTHING",
+      "YEAR": "Année(s)",
+      "MONTH": "Moi(s)",
+      "WEEK": "Semaine(s)",
+      "DAY": "Jour(s)"
+    }
+  }
+}

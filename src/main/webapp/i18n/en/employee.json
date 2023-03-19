@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "employee": {
+      "home": {
+        "title": "Employes",
+        "createLabel": "Create a new employe",
+        "createOrEditLabel": "Create or edit a employe",
+        "notFound": "No employes found"
+      },
+      "created": "A new employe is created with identifier {{ param }}",
+      "updated": "A employe is updated with identifier {{ param }}",
+      "deleted": "A employe is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Employe {{ id }}?"
+      },
+      "detail": {
+        "title": "Employe"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "salary": "Salary",
+      "hireDate": "Hire Date",
+      "photo": "Photo",
+      "managerId": "Manager",
+      "department": "Department",
+      "fonction": "Fonction"
+    }
+  }
+}

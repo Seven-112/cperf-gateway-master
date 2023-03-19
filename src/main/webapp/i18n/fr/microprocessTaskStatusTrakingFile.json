@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskStatusTrakingFile": {
+      "home": {
+        "title": "TaskStatusTrakingFiles",
+        "createLabel": "Créer un nouveau Task Status Traking File",
+        "createOrEditLabel": "Créer ou éditer un Task Status Traking File",
+        "notFound": "Aucun Task Status Traking File trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Task Status Traking File {{ id }} ?"
+      },
+      "detail": {
+        "title": "Task Status Traking File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "track": "Track"
+    }
+  },
+  "processApp": {
+    "microprocessTaskStatusTrakingFile": {
+      "created": "Un nouveau Task Status Traking File a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Task Status Traking File avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Task Status Traking File avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

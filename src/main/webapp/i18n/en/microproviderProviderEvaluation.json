@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microproviderProviderEvaluation": {
+      "home": {
+        "title": "Provider Evaluations",
+        "createLabel": "Create a new Provider Evaluation",
+        "createOrEditLabel": "Create or edit a Provider Evaluation",
+        "notFound": "No Provider Evaluations found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Provider Evaluation {{ id }}?"
+      },
+      "detail": {
+        "title": "Provider Evaluation"
+      },
+      "note": "Note",
+      "scale": "Scale",
+      "justification": "Justification",
+      "userId": "User Id",
+      "storeAt": "Store At",
+      "updateAt": "Update At",
+      "userFullName": "User Full Name",
+      "criteriaId": "Criteria Id",
+      "ponderation": "Ponderation",
+      "answer": "Answer"
+    }
+  },
+  "microproviderApp": {
+    "microproviderProviderEvaluation": {
+      "created": "A new Provider Evaluation is created with identifier {{ param }}",
+      "updated": "A Provider Evaluation is updated with identifier {{ param }}",
+      "deleted": "A Provider Evaluation is deleted with identifier {{ param }}"
+    }
+  }
+}

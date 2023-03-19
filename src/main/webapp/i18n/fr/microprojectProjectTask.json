@@ -1,0 +1,54 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTask": {
+      "home": {
+        "title": "Tâches",
+        "createLabel": "Créer une nouvelle tâche",
+        "createOrEditLabel": "Créer ou éditer une tâche",
+        "notFound": "Aucune tâche trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le tâche {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tâche"
+      },
+      "name": "Nom",
+      "description": "Description",
+      "nbMinuites": "Minuites",
+      "nbHours": "Heures",
+      "nbDays": "Jours",
+      "nbMonths": "Mois",
+      "nbYears": "Année",
+      "startAt": "Démarrée le",
+      "status": "Status",
+      "priorityLevel": "Niveau de priorité",
+      "type": "Type",
+      "valid": "Valide",
+      "finishAt": "Finie le",
+      "startWithProcess": "A démarrée en même temps que le projet",
+      "processId": "Projet",
+      "parentId": "Parente",
+      "taskModelId": "Tâche modèle",
+      "pauseAt": "Mise en pause le",
+      "nbPause": "Nombre de pause",
+      "logigramPosX": "Logigram Pos X",
+      "logigramPosY": "Logigram Pos Y",
+      "groupId": "Groupe",
+      "riskId": "Risque",
+      "manualMode": "Mode manuelle",
+      "sheduledStartAt": "Démarrage programmé le",
+      "sheduledStartHour": "Heure",
+      "sheduledStartMinute": "Minutes",
+      "startupTaskId": "Tâche de démarrage en même temps",
+      "ponderation": "Pondération"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTask": {
+      "created": "Une nouvelle tâche a été créé avec l'identifiant {{ param }}",
+      "updated": "La tâche avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La tâche avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

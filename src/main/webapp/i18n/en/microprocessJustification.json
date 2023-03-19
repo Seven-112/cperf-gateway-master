@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "microprocessJustification": {
+      "home": {
+        "title": "Justifications",
+        "createLabel": "Create a new justification",
+        "createOrEditLabel": "Create or edit a justification",
+        "notFound": "No justifications found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete justification {{ id }}?"
+      },
+      "detail": {
+        "title": "Justification"
+      },
+      "content": "Content",
+      "fileId": "File",
+      "taskId": "Task",
+      "processId": "Process",
+      "reason": "Reason",
+      "accepted": "Accepted",
+      "editorId": "Editor"
+    }
+  },
+  "microprocessApp": {
+    "microprocessJustification": {
+      "created": "A new justification is created with identifier {{ param }}",
+      "updated": "A justification is updated with identifier {{ param }}",
+      "deleted": "A justification is deleted with identifier {{ param }}"
+    }
+  }
+}

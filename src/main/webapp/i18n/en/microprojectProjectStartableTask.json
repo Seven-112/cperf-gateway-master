@@ -1,0 +1,34 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectStartableTask": {
+      "home": {
+        "title": "Project Startable Tasks",
+        "createLabel": "Create a new Project Startable Task",
+        "createOrEditLabel": "Create or edit a Project Startable Task",
+        "notFound": "No Project Startable Tasks found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Startable Task {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Startable Task"
+      },
+      "triggerTaskId": "Trigger Task Id",
+      "startableTaskId": "Startable Task Id",
+      "triggerTaskName": "Trigger Task Name",
+      "startableTaskName": "Startable Task Name",
+      "triggerProjectName": "Trigger Project Name",
+      "startableProjectName": "Startable Project Name",
+      "userId": "User Id",
+      "createdAt": "Created At",
+      "startCond": "Start Cond"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectStartableTask": {
+      "created": "A new Project Startable Task is created with identifier {{ param }}",
+      "updated": "A Project Startable Task is updated with identifier {{ param }}",
+      "deleted": "A Project Startable Task is deleted with identifier {{ param }}"
+    }
+  }
+}

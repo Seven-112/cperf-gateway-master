@@ -1,0 +1,20 @@
+id;entity;name
+1;User;Utilisateur
+2;Department;Département
+3;Employee;Employée
+4;Objectif;Objectif
+5;Privilege;Privilège
+6;Procedure;Procédure
+7;Process;Process
+8;Task;Tâche
+9;Application;
+10;Organigram;Organigrame
+11;Settings;Paramêtrage
+12;Statistic;Statistique
+13;Partener;Partenaire
+14;Provider;Fournisseur
+15;Tender;Appel d'offre
+16;ProviderExpedition; Expédition
+17;Query;Requêtes
+
+

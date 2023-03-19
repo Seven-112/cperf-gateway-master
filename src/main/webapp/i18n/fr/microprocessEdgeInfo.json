@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "microprocessEdgeInfo": {
+      "home": {
+        "title": "EdgeInfos",
+        "createLabel": "Créer un nouveau Edge Info",
+        "createOrEditLabel": "Créer ou éditer un Edge Info",
+        "notFound": "Aucun Edge Info trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Edge Info {{ id }} ?"
+      },
+      "detail": {
+        "title": "Edge Info"
+      },
+      "source": "Source",
+      "target": "Target",
+      "sourceHandle": "Source Handle",
+      "targetHandle": "Target Handle",
+      "processId": "Process Id",
+      "valid": "Valid"
+    }
+  },
+  "microprocessApp": {
+    "microprocessEdgeInfo": {
+      "created": "Un nouveau Edge Info a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Edge Info avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Edge Info avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

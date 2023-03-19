@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "ObjectifCategorie": {
+      "null": "",
+      "FONCTIONAL": "FONCTIONAL",
+      "COLLECTIVE": "COLLECTIVE",
+      "INDIVIDUAL": "INDIVIDUAL"
+    }
+  }
+}

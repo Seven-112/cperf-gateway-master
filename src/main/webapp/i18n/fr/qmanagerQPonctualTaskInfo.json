@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "qmanagerQPonctualTaskInfo": {
+      "home": {
+        "title": "QPonctualTaskInfos",
+        "createLabel": "Créer un nouveau Q Ponctual Task Info",
+        "createOrEditLabel": "Créer ou éditer un Q Ponctual Task Info",
+        "notFound": "Aucune donnée trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Q Ponctual Task Info {{ id }} ?"
+      },
+      "detail": {
+        "title": "Q Ponctual Task Info"
+      },
+      "nbMinutes": "Minutes",
+      "nbHours": "Heures",
+      "nbDays": "Jours",
+      "nbMonths": "Mois",
+      "nbYears": "Années",
+      "qInstanceId": "Instance"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQPonctualTaskInfo": {
+      "created": "Un nouveau Q Ponctual Task Info a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Q Ponctual Task Info avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Q Ponctual Task Info avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

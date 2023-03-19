@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "PrivilegeAction": {
+      "null": "",
+      "CREATE": "Créer",
+      "UPDATE": "Editer",
+      "LISTE": "Lister",
+      "DELETE": "Supprimer",
+      "ALL": "Tout"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "microgatewayApp": {
+    "microprocessTask": {
+      "home": {
+        "title": "Tasks",
+        "createLabel": "Create a new task",
+        "createOrEditLabel": "Create or edit a task",
+        "notFound": "No tasks found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete task {{ id }}?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "name": "Name",
+      "description": "Description",
+      "nbMinuites": "Minuites",
+      "nbHours": "Hours",
+      "nbDays": "Days",
+      "nbMonths": "Months",
+      "nbYears": "Years",
+      "startAt": "Start At",
+      "status": "Status",
+      "priorityLevel": "Priority Level",
+      "type": "Type",
+      "valid": "Valid",
+      "finishAt": "Finish At",
+      "startWithProcess": "Start With Process",
+      "processId": "Process",
+      "parentId": "Parent",
+      "taskModelId": "Task Model",
+      "pauseAt": "Pause At",
+      "nbPause": "Pause count",
+      "logigramPosX": "Logigram pos x",
+      "logigramPosY": "Logigram pos y",
+      "groupId": "Group",
+      "riskId": "Risk",
+      "manualMode": "Manual mode",
+      "startupTask": "Startup task"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTask": {
+      "created": "A new task is created with identifier {{ param }}",
+      "updated": "A task is updated with identifier {{ param }}",
+      "deleted": "A task is deleted with identifier {{ param }}"
+    }
+  }
+}

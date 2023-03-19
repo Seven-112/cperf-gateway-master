@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskValidationControl": {
+      "home": {
+        "title": "contrôles de validation",
+        "createLabel": "Créer un nouveau contrôle",
+        "createOrEditLabel": "Créer ou éditer un contrôle",
+        "notFound": "Aucun contrôle trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le contrôle {{ id }} ?"
+      },
+      "detail": {
+        "title": "Contrôle"
+      },
+      "label": "Libellé",
+      "required": "Obligatoire",
+      "valid": "Valide",
+      "taskId": "Tâche"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskValidationControl": {
+      "created": "Un nouveau contrôle a été créé avec l'identifiant {{ param }}",
+      "updated": "Le contrôle avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le contrôle avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

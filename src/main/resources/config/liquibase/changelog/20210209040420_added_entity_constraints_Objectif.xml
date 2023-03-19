@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Objectif.
+    -->
+    <changeSet id="20210209040420-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="type_objectif_id"
+                                 baseTableName="objectif"
+                                 constraintName="fk_objectif_type_objectif_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="type_objectif"/>
+
+        <addForeignKeyConstraint baseColumnNames="fonction_id"
+                                 baseTableName="objectif"
+                                 constraintName="fk_objectif_fonction_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="fonction"/>
+
+        <addForeignKeyConstraint baseColumnNames="department_id"
+                                 baseTableName="objectif"
+                                 constraintName="fk_objectif_department_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="department"/>
+
+        <addForeignKeyConstraint baseColumnNames="employee_id"
+                                 baseTableName="objectif"
+                                 constraintName="fk_objectif_employee_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="employee"/>
+
+        <addForeignKeyConstraint baseColumnNames="parent_id"
+                                 baseTableName="objectif"
+                                 constraintName="fk_objectif_parent_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="objectif"/>
+
+    </changeSet>
+</databaseChangeLog>

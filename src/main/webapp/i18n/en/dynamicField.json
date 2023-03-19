@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "dynamicField": {
+      "home": {
+        "title": "Dynamic Fields",
+        "createLabel": "Create a new Dynamic Field",
+        "createOrEditLabel": "Create or edit a Dynamic Field",
+        "notFound": "No Dynamic Fields found"
+      },
+      "created": "A new Dynamic Field is created with identifier {{ param }}",
+      "updated": "A Dynamic Field is updated with identifier {{ param }}",
+      "deleted": "A Dynamic Field is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Dynamic Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Dynamic Field"
+      },
+      "name": "Name",
+      "type": "Type",
+      "required": "Required",
+      "docId": "Doc Id",
+      "entityId": "Entity Id",
+      "tag": "Tag"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskItem": {
+      "home": {
+        "title": "Control items",
+        "createLabel": "Create a new control item",
+        "createOrEditLabel": "Create or edit a control item",
+        "notFound": "No control item found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete control item {{ id }}?"
+      },
+      "detail": {
+        "title": "Control Item"
+      },
+      "name": "Name",
+      "taskId": "Task",
+      "checked": "Checked",
+      "checkerId": "Controler Id",
+      "checkerName": "Controler",
+      "checkerEmail": "Controler email",
+      "editorId": "Editor Id",
+      "editorEmail": "Editor Email",
+      "editorName": "Editor",
+      "required": "Required"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskItem": {
+      "created": "A new control item is created with identifier {{ param }}",
+      "updated": "A control item is updated with identifier {{ param }}",
+      "deleted": "A control item is deleted with identifier {{ param }}"
+    }
+  }
+}

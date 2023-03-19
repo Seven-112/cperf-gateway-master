@@ -1,0 +1,26 @@
+{
+  "_tender": {
+    "lunched": "Call for tenders launched",
+    "received": "Tenders received",
+    "docs": "Documents",
+    "files": "Documentation files",
+    "requiredDocs": "Documents to be completed",
+    "expired": "expired",
+    "additionalDocs": "Additional documents",
+    "noAnswer": "No answer",
+    "responseWithExecutionTime": "Require an execution deadline for all responses",
+    "respondedProviders": "Diggers that have responded",
+    "noSelectedAnswser": "No Selected answer",
+    "evaluationInfo": "Evaluation infos",
+    "evalutionGrid": "Evaluation grid of {{user}}",
+    "responseDocs": "Attached documents",
+    "startExecution": "Start execution",
+    "finishExecution": "Finish assignment",
+    "executionValidation": "Execution validation",
+    "executionEvaluation": "Execution evaluation",
+    "executionAverage": "Execution average",
+    "sendingSelectionEmailToProvider": "An email will be sent to the supplier to confirm his selection",
+    "publishing": "Tender publication",
+    "unselectedProvider": "Unselected provider"
+  }
+}

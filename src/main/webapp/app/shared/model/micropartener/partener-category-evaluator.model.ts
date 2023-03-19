@@ -1,0 +1,9 @@
+import { IPartenerCategory } from 'app/shared/model/micropartener/partener-category.model';
+
+export interface IPartenerCategoryEvaluator {
+  id?: number;
+  userId?: number;
+  category?: IPartenerCategory;
+}
+
+export const defaultValue: Readonly<IPartenerCategoryEvaluator> = {};

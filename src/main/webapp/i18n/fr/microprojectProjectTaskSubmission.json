@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskSubmission": {
+      "home": {
+        "title": "ProjectTaskSubmissions",
+        "createLabel": "Créer un nouveau Project Task Submission",
+        "createOrEditLabel": "Créer ou éditer un Project Task Submission",
+        "notFound": "Aucun Project Task Submission trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Project Task Submission {{ id }} ?"
+      },
+      "detail": {
+        "title": "Project Task Submission"
+      },
+      "submitorId": "Submitor Id",
+      "submitorName": "Submitor Name",
+      "submitorEmail": "Submitor Email",
+      "comment": "Comment",
+      "storeUp": "Store Up",
+      "taskId": "Task Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskSubmission": {
+      "created": "Un nouveau Project Task Submission a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Project Task Submission avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Project Task Submission avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

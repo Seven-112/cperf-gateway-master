@@ -1,0 +1,50 @@
+{
+  "microgatewayApp": {
+    "microprocessTask": {
+      "home": {
+        "title": "Tâches",
+        "createLabel": "Créer une nouvelle tâche",
+        "createOrEditLabel": "Créer ou éditer une tâche",
+        "notFound": "Aucune tâche trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la tâche {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tâche"
+      },
+      "name": "Nom",
+      "description": "Description",
+      "nbMinuites": "Minuites",
+      "nbHours": "Heures",
+      "nbDays": "Jours",
+      "nbMonths": "Mois",
+      "nbYears": "Années",
+      "startAt": "Démarrée le",
+      "status": "Statut",
+      "priorityLevel": "Niveau de priorité",
+      "type": "Type",
+      "valid": "Valide",
+      "finishAt": "Exécutée le",
+      "startWithProcess": "Démarre avec le processus",
+      "processId": "Processus",
+      "parentId": "Parent",
+      "taskModelId": "Tâche Modèle",
+      "pauseAt": "Mise en pause le",
+      "nbPause": "nombre de pause",
+      "logigramPosX": "Position X da la logigrammme",
+      "logigramPosY": "Position Y de la logigramme",
+      "groupId": "Groupe",
+      "riskId": "Risque",
+      "manualMode": "Mode manuelle",
+      "startupTask": "Tâche de démarrage"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTask": {
+      "created": "Une tâche a été créé avec l'identifiant {{ param }}",
+      "updated": "La tâche avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La tâche avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

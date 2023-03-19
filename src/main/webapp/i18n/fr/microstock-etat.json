@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "Etat": {
+      "null": "",
+      "Attente": "Attente",
+      "Validee": "Validee",
+      "Rejetter": "Rejetter"
+    }
+  }
+}

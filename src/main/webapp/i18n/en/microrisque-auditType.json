@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "AuditType": {
+      "null": "",
+      "INTERNAL": "Internal audit",
+      "PERMANENT": "Permanent control",
+      "QUALITY": "Quality audit"
+    }
+  }
+}

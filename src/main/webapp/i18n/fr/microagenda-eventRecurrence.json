@@ -1,0 +1,14 @@
+{
+  "microgatewayApp": {
+    "EventRecurrence": {
+      "null": "",
+      "ONCE": "Une seule fois",
+      "ALLAWAYS": "Tous les jours",
+      "WEEK": "Tous les jours de la semaine",
+      "EVERY_WEEK_ON_DAY": "Toutes les semaines le {{ dayName }}",
+      "EVERY_YEAR_ON_DATE": "Tous les ans le {{ date }}",
+      "EVERY_MONTH_OF_DAY_POSITION": "Tous les mois le {{ dayPos }}",
+      "EVERY_MONTH": "Tous les mois le {{ date }}"
+    }
+  }
+}

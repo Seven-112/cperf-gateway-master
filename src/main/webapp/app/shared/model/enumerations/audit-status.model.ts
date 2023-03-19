@@ -1,0 +1,13 @@
+export const enum AuditStatus {
+  INITIAL = 'INITIAL',
+
+  STARTED = 'STARTED',
+
+  EXECUTED = 'EXECUTED',
+
+  SUBMITTED = 'SUBMITTED',
+
+  COMPLETED = 'COMPLETED',
+
+  CANCELED = 'CANCELED',
+}

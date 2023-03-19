@@ -1,0 +1,37 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswer": {
+      "home": {
+        "title": "Réponses",
+        "createLabel": "Répondre",
+        "createOrEditLabel": "Répondre",
+        "notFound": "Aucune réponse trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la réponse {{ id }} ?"
+      },
+      "detail": {
+        "title": "Réponse"
+      },
+      "storeAt": "d'ate d'enregistrement",
+      "content": "Contenu",
+      "providerId": "Fournissuer",
+      "executionDeley": "Délai d'exécution",
+      "executionDeleyUnity": "unité",
+      "tender": "Apel d'offre",
+      "average": "moyenne",
+      "startedAt": "Démarrée le",
+      "finishedAt": "Terminée le",
+      "starterId": "Lanceur",
+      "finiserId": "Finisseur",
+      "executionAverage": "Note Moyenne"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswer": {
+      "created": "Une nouvelle réponse a été créé avec l'identifiant {{ param }}",
+      "updated": "La réponse avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La réponse avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "micropartenerEvaluationCriteria": {
+      "home": {
+        "title": "Evaluation Criteria",
+        "createLabel": "Create a new Evaluation Criteria",
+        "createOrEditLabel": "Create or edit a Evaluation Criteria",
+        "notFound": "No Evaluation Criteria found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Evaluation Criteria {{ id }}?"
+      },
+      "detail": {
+        "title": "Evaluation Criteria"
+      },
+      "name": "Name",
+      "ponderation": "Ponderation",
+      "category": "Category"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerEvaluationCriteria": {
+      "created": "A new Evaluation Criteria is created with identifier {{ param }}",
+      "updated": "A Evaluation Criteria is updated with identifier {{ param }}",
+      "deleted": "A Evaluation Criteria is deleted with identifier {{ param }}"
+    }
+  }
+}

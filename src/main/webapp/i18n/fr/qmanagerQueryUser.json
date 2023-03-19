@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryUser": {
+      "home": {
+        "title": "Générateurs",
+        "createLabel": "Créer un nouveau générateur",
+        "createOrEditLabel": "Créer ou éditer un générateur",
+        "notFound": "Aucun générateur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le générateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Générateur"
+      },
+      "userId": "Id",
+      "query": "Requête"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryUser": {
+      "created": "Un nouveau générateur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le générateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le générateur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

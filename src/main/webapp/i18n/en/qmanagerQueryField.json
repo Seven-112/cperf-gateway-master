@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryField": {
+      "home": {
+        "title": "Query Fields",
+        "createLabel": "Create a new Query Field",
+        "createOrEditLabel": "Create or edit a Query Field",
+        "notFound": "No Query Fields found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Field {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Field"
+      },
+      "fieldId": "Field Id",
+      "queryId": "Query Id"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryField": {
+      "created": "A new Query Field is created with identifier {{ param }}",
+      "updated": "A Query Field is updated with identifier {{ param }}",
+      "deleted": "A Query Field is deleted with identifier {{ param }}"
+    }
+  }
+}

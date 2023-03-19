@@ -1,0 +1,9 @@
+{
+  "microgatewayApp": {
+    "DynamicFieldTag": {
+      "null": "",
+      "TENDER": "TENDER",
+      "TRAKING_EXPEDITION": "TRAKING_EXPEDITION"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "typeindicator",
+      "otherEntityName": "typeindicator",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "indicator"
+    },
+    {
+      "relationshipName": "objectif",
+      "otherEntityName": "objectif",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": ["required"],
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "indicator"
+    },
+    {
+      "relationshipName": "parent",
+      "otherEntityName": "indicator",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id",
+      "otherEntityRelationshipName": "indicator"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "expectedResultNumber",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "resultUnity",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "question",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resultEditableByActor",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "numberResult",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "percentResult",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "resultAppreciation",
+      "fieldType": "String",
+      "fieldValidateRules": ["maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "averagePercentage",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "ponderation",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20210209044450",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "indicator",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "pagination"
+}

@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectCommentFile": {
+      "home": {
+        "title": "Project Comment Files",
+        "createLabel": "Create a new Project Comment File",
+        "createOrEditLabel": "Create or edit a Project Comment File",
+        "notFound": "No Project Comment Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Comment File {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Comment File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "commentId": "Comment Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectCommentFile": {
+      "created": "A new Project Comment File is created with identifier {{ param }}",
+      "updated": "A Project Comment File is updated with identifier {{ param }}",
+      "deleted": "A Project Comment File is deleted with identifier {{ param }}"
+    }
+  }
+}

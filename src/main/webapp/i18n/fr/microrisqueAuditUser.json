@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditUser": {
+      "home": {
+        "title": "Auditeurs",
+        "createLabel": "Créer un auditeur",
+        "createOrEditLabel": "Créer ou éditer un auditeur",
+        "notFound": "Aucun auditeur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'auditeur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Auditeur"
+      },
+      "auditId": "Audit Id",
+      "userId": "Utilisateur",
+      "userFullName": "Nom complet",
+      "userEmail": "Email",
+      "role": "Rôle"
+    }
+  },
+  "microriskApp": {
+    "microrisqueAuditUser": {
+      "created": "Un auditeura été créé avec l'identifiant {{ param }}",
+      "updated": "L'auditeur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'auditeur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

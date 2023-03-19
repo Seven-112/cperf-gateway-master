@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderAnswerDoc": {
+      "home": {
+        "title": "Documments",
+        "createLabel": "Créer un nouveau document",
+        "createOrEditLabel": "Créer ou éditer un document",
+        "notFound": "Aucun document trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tdocument {{ id }} ?"
+      },
+      "detail": {
+        "title": "Document"
+      },
+      "name": "Nom",
+      "fileId": "Fichier",
+      "tenderAnswer": "Réponse",
+      "tenderDoc": "Document d'appel d'offre"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderAnswerDoc": {
+      "created": "Un nouveau document a été créé avec l'identifiant {{ param }}",
+      "updated": "Le document avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le document avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

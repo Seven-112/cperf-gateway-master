@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditRecomUser": {
+      "home": {
+        "title": "Utilisateurs",
+        "createLabel": "Créer un nouveau utilisateur",
+        "createOrEditLabel": "Créer ou éditer un utilisateur",
+        "notFound": "Aucun utilisateur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer l'utilisateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Utilisateur"
+      },
+      "recomId": "Id Recommandation",
+      "userId": "Id utilisateur",
+      "userFullName": "Nom complet",
+      "userEmail": "Email utilisateur",
+      "role": "Rôle"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditRecomUser": {
+      "created": "Unutilisateur a été créé avec l'identifiant {{ param }}",
+      "updated": "L'utilisateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "L'utilisateur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

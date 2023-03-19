@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "FieldType": {
+      "null": "",
+      "STRING": "Texte",
+      "NUMBER": "Nombre",
+      "BOOLEAN": "Booléen",
+      "DATE": "Date",
+      "DATETIME": "Date et heure"
+    }
+  }
+}

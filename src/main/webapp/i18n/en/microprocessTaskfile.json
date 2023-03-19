@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessTaskfile": {
+      "home": {
+        "title": "Task files",
+        "createLabel": "Create a new task file",
+        "createOrEditLabel": "Create or edit a task file",
+        "notFound": "No task files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete task file {{ id }}?"
+      },
+      "detail": {
+        "title": "Task file"
+      },
+      "fileId": "File",
+      "description": "Description",
+      "type": "type",
+      "task": "task"
+    }
+  },
+  "microprocessApp": {
+    "microprocessTaskfile": {
+      "created": "A new task file is created with identifier {{ param }}",
+      "updated": "A task file is updated with identifier {{ param }}",
+      "deleted": "A task file is deleted with identifier {{ param }}"
+    }
+  }
+}

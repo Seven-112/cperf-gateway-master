@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microagendaEventParticipant": {
+      "home": {
+        "title": "Event Participants",
+        "createLabel": "Create a new Event Participant",
+        "createOrEditLabel": "Create or edit a Event Participant",
+        "notFound": "No Event Participants found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Event Participant {{ id }}?"
+      },
+      "detail": {
+        "title": "Event Participant"
+      },
+      "participantId": "Participant Id",
+      "name": "Name",
+      "email": "Email",
+      "required": "Required",
+      "event": "Event"
+    }
+  },
+  "microagandaApp": {
+    "microagendaEventParticipant": {
+      "created": "A new Event Participant is created with identifier {{ param }}",
+      "updated": "A Event Participant is updated with identifier {{ param }}",
+      "deleted": "A Event Participant is deleted with identifier {{ param }}"
+    }
+  }
+}

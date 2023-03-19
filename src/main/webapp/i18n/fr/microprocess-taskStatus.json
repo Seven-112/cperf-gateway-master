@@ -1,0 +1,14 @@
+{
+  "microgatewayApp": {
+    "TaskStatus": {
+      "null": "",
+      "VALID": "Non démarrée",
+      "STARTED": "à exécuter",
+      "EXECUTED": "à soummetre",
+      "COMPLETED": "Traitée",
+      "CANCELED": "Annulée",
+      "SUBMITTED": "à valider",
+      "ON_PAUSE": "En pause"
+    }
+  }
+}

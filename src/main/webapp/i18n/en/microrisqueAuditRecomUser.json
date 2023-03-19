@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditRecomUser": {
+      "home": {
+        "title": "Recommendation Users",
+        "createLabel": "Create a new recommendation user",
+        "createOrEditLabel": "Create or edit a recommendation user",
+        "notFound": "No recommendation users found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete recommendation user {{ id }}?"
+      },
+      "detail": {
+        "title": "Recommendation User"
+      },
+      "recomId": "Recommendation Id",
+      "userId": "User Id",
+      "userFullName": "User",
+      "userEmail": "User Email",
+      "role": "Role"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditRecomUser": {
+      "created": "A new recommendation user is created with identifier {{ param }}",
+      "updated": "A recommendation user is updated with identifier {{ param }}",
+      "deleted": "A recommendation user is deleted with identifier {{ param }}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "AuditUserRole": {
+      "null": "",
+      "EXECUTOR": "Executor",
+      "SUBMITOR": "Submitor",
+      "VALIDATOR": "Validator"
+    }
+  }
+}

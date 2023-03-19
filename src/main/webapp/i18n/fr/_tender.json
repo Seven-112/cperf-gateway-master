@@ -1,0 +1,26 @@
+{
+  "_tender": {
+    "lunched": "Appels d'offre lancés",
+    "received": "Appels d'offre réçus",
+    "docs": "Documents",
+    "files": "Documentation",
+    "requiredDocs": "Documents à fournir",
+    "expired": "expiré",
+    "additionalDocs": "Documents supplémentaires",
+    "noAnswer": "Non répondu",
+    "responseWithExecutionTime": "Exiger une durée d’exécution pour toutes les réponses",
+    "respondedProviders": "Fouisseurs qu'ont répondu",
+    "noSelectedAnswser": "Aucune réponponse choisie",
+    "evaluationInfo": "Infos Evaluation",
+    "evalutionGrid": "Grille d'évaluation de {{user}}",
+    "responseDocs": "Documents joints",
+    "startExecution": "Démarrer l'execution",
+    "finishExecution": "Clôturer l'exécution du marché",
+    "executionValidation": "Validation de l'exécution",
+    "executionEvaluation": "Evaluation post-exécution",
+    "executionAverage": "Moyenne exécution",
+    "sendingSelectionEmailToProvider": "Un email sera envoyé au fournisseur pour lui confirmer sa sélection",
+    "publishing": "Publication de l'appel d'offre",
+    "unselectedProvider": "Fournisseur(s) non sélectionné(s)"
+  }
+}

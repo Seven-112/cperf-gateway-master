@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microstockApprovisionnement": {
+      "home": {
+        "title": "Approvisionnements",
+        "createLabel": "Create a new Approvisionnement",
+        "createOrEditLabel": "Create or edit a Approvisionnement",
+        "notFound": "No Approvisionnements found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Approvisionnement {{ id }}?"
+      },
+      "detail": {
+        "title": "Approvisionnement"
+      },
+      "quantite": "Quantite",
+      "motif": "Motif",
+      "dateAjout": "Date Ajout",
+      "delaisAttente": "Delais Attente"
+    }
+  },
+  "microstockApp": {
+    "microstockApprovisionnement": {
+      "created": "A new Approvisionnement is created with identifier {{ param }}",
+      "updated": "A Approvisionnement is updated with identifier {{ param }}",
+      "deleted": "A Approvisionnement is deleted with identifier {{ param }}"
+    }
+  }
+}

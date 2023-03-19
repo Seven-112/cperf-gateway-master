@@ -1,0 +1,34 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderExecutionEvaluation": {
+      "home": {
+        "title": "TenderExecutionEvaluations",
+        "createLabel": "Créer un nouveau Tender Execution Evaluation",
+        "createOrEditLabel": "Créer ou éditer un Tender Execution Evaluation",
+        "notFound": "Aucun Tender Execution Evaluation trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tender Execution Evaluation {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tender Execution Evaluation"
+      },
+      "note": "Note",
+      "scale": "Scale",
+      "justification": "Justification",
+      "userId": "User Id",
+      "userFullName": "User Full Name",
+      "storeAt": "Store At",
+      "updateAt": "Update At",
+      "ponderation": "Ponderation",
+      "execution": "Execution"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderExecutionEvaluation": {
+      "created": "Un nouveau Tender Execution Evaluation a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tender Execution Evaluation avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tender Execution Evaluation avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

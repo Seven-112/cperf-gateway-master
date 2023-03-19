@@ -1,0 +1,7 @@
+export const enum TaskFileType {
+  DESCRIPTION = 'DESCRIPTION',
+
+  VALIDATION = 'VALIDATION',
+
+  SOUMISSION = 'SOUMISSION',
+}

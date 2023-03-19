@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microproviderTenderProvider": {
+      "home": {
+        "title": "TenderProviders",
+        "createLabel": "Créer un nouveau Tender Provider",
+        "createOrEditLabel": "Créer ou éditer un Tender Provider",
+        "notFound": "Aucun Tender Provider trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Tender Provider {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tender Provider"
+      },
+      "tenderId": "Tender Id",
+      "providerId": "Provider Id",
+      "providerEmail": "Provider Email",
+      "providerName": "Provider Name",
+      "valid": "Valid"
+    }
+  },
+  "microproviderApp": {
+    "microproviderTenderProvider": {
+      "created": "Un nouveau Tender Provider a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tender Provider avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tender Provider avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

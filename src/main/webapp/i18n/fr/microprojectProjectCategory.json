@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectCategory": {
+      "home": {
+        "title": "Catégories",
+        "createLabel": "Créer un nouveau catégorie",
+        "createOrEditLabel": "Créer ou éditer un catégorie",
+        "notFound": "Aucun catégorie trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le catégorie {{ id }} ?"
+      },
+      "detail": {
+        "title": "Catégorie"
+      },
+      "name": "Nom",
+      "description": "Description"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectCategory": {
+      "created": "Une nouvelle catégorie a été créé avec l'identifiant {{ param }}",
+      "updated": "La catégorie avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La catégorie avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

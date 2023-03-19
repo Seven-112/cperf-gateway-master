@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "DeleyUnit": {
+      "null": "",
+      "SECOND": "SECOND",
+      "HOUR": "HOUR",
+      "DAY": "DAY",
+      "MONTH": "MONTH",
+      "YEAR": "YEAR"
+    }
+  }
+}

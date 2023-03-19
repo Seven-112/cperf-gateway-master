@@ -1,0 +1,78 @@
+{
+  "_calendar": {
+    "label": {
+      "nextPeriod": "Prochaine période",
+      "prevPeriod": "Période précédente",
+      "allDay": "Toute la journée",
+      "timeZone": "Fuseau horaire",
+      "recurrence": "récurrence",
+      "always": "Toujours",
+      "oneTime": "Une fois",
+      "nTime": "{{ n }} fois",
+      "internalParticipants": "Participants interne",
+      "externalParticipants": "Participants externe",
+      "reminder": "Rappel",
+      "delete": {
+        "title": "Supprimer l'événement",
+        "pTitle": "Supprimer l'événement périodique",
+        "this": "Cet événement",
+        "all": "Tous les événements"
+      },
+      "update": "Modifier l'événement périodique"
+    },
+    "day": {
+      "0": "Samedi",
+      "1": "Lundi",
+      "2": "Mardi",
+      "3": "Mercredi",
+      "4": "Jeudi",
+      "5": "Vendredi",
+      "6": "Dimanche"
+    },
+    "day.short": {
+      "0": "Sam",
+      "1": "Lun",
+      "2": "Mar",
+      "3": "Mer",
+      "4": "Jeu",
+      "5": "Ven",
+      "6": "Dim"
+    },
+    "month": {
+      "0": "Janvier",
+      "1": "Février",
+      "2": "Mars",
+      "3": "Avril",
+      "4": "Mai",
+      "5": "Juin",
+      "6": "Juillet",
+      "7": "Août",
+      "8": "Septembre",
+      "9": "Octobre",
+      "10": "Novembre",
+      "11": "Décembre"
+    },
+    "month.short": {
+      "0": "Jan",
+      "1": "Fév",
+      "2": "Mars",
+      "3": "Avr",
+      "4": "Mai",
+      "5": "Juin",
+      "6": "Juil",
+      "7": "Août",
+      "8": "Sept",
+      "9": "Oct",
+      "10": "Nov",
+      "11": "Déc"
+    },
+    "day.pos": {
+      "1": "le premier {{ day }}",
+      "2": "le deuxième {{ day }}",
+      "3": "le troisième {{ day }}",
+      "4": "le quatrième {{ day }}",
+      "5": "le cinquième {{ day }}",
+      "6": "le sixième {{ day }}"
+    }
+  }
+}

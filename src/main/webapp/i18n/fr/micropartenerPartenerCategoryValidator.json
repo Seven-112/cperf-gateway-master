@@ -1,0 +1,27 @@
+{
+  "microgatewayApp": {
+    "micropartenerPartenerCategoryValidator": {
+      "home": {
+        "title": "Validateurs",
+        "createLabel": "Créer un nouveau validateur",
+        "createOrEditLabel": "Créer ou éditer un validateur",
+        "notFound": "Aucun validateur trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le validateur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Validateur"
+      },
+      "userId": "Utilisateur",
+      "category": "Catégorie"
+    }
+  },
+  "micropartenerApp": {
+    "micropartenerPartenerCategoryValidator": {
+      "created": "Un nouveau validateur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le validateur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le validateur avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

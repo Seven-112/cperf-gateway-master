@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryClient": {
+      "home": {
+        "title": "Clients",
+        "createLabel": "Créer un nouveau client",
+        "createOrEditLabel": "Créer ou éditer un client",
+        "notFound": "Aucun client trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le client {{ id }} ?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "name": "Nom",
+      "accountNum": "Numéro de compte",
+      "disabled": "Désactivé",
+      "type": "Type"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryClient": {
+      "created": "Un nouveau client a été créé avec l'identifiant {{ param }}",
+      "updated": "Le client avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le client avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

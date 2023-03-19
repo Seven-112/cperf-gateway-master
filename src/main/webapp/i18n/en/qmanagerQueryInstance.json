@@ -1,0 +1,32 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryInstance": {
+      "home": {
+        "title": "Query Instances",
+        "createLabel": "Create a new Query Instance",
+        "createOrEditLabel": "Create or edit a Query Instance",
+        "notFound": "No Query Instances found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Query Instance {{ id }}?"
+      },
+      "detail": {
+        "title": "Query Instance"
+      },
+      "name": "Object",
+      "startAt": "Start At",
+      "userId": "User Id",
+      "validated": "Validated",
+      "query": "Query",
+      "client": "Client",
+      "status": "Status"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryInstance": {
+      "created": "A new Query Instance is created with identifier {{ param }}",
+      "updated": "A Query Instance is updated with identifier {{ param }}",
+      "deleted": "A Query Instance is deleted with identifier {{ param }}"
+    }
+  }
+}

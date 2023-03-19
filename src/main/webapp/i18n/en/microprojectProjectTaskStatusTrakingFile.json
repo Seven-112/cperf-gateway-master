@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskStatusTrakingFile": {
+      "home": {
+        "title": "Project Task Status Traking Files",
+        "createLabel": "Create a new Project Task Status Traking File",
+        "createOrEditLabel": "Create or edit a Project Task Status Traking File",
+        "notFound": "No Project Task Status Traking Files found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task Status Traking File {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task Status Traking File"
+      },
+      "fileId": "File Id",
+      "fileName": "File Name",
+      "trackId": "Track Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskStatusTrakingFile": {
+      "created": "A new Project Task Status Traking File is created with identifier {{ param }}",
+      "updated": "A Project Task Status Traking File is updated with identifier {{ param }}",
+      "deleted": "A Project Task Status Traking File is deleted with identifier {{ param }}"
+    }
+  }
+}

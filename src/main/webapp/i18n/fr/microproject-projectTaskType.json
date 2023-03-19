@@ -1,0 +1,12 @@
+{
+  "microgatewayApp": {
+    "ProjectTaskType": {
+      "null": "",
+      "START": "START",
+      "ACTIVITY": "ACTIVITY",
+      "SUBACTIVITY": "SUBACTIVITY",
+      "DOC": "DOC",
+      "END": "END"
+    }
+  }
+}

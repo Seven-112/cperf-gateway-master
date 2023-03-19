@@ -1,0 +1,28 @@
+{
+  "microgatewayApp": {
+    "qmanagerQueryFieldResponse": {
+      "home": {
+        "title": "Réponses",
+        "createLabel": "Créer un nouvelle réponse",
+        "createOrEditLabel": "Créer ou éditer une réponse",
+        "notFound": "Aucune réponse trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la réponse {{ id }} ?"
+      },
+      "detail": {
+        "title": "Réponse"
+      },
+      "val": "Valeur",
+      "fieldId": "Id du champ",
+      "instance": "Instance"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQueryFieldResponse": {
+      "created": "Un nouvelle réponse a été créé avec l'identifiant {{ param }}",
+      "updated": "La réponse avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La réponse avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

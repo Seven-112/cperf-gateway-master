@@ -1,0 +1,31 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskSubmission": {
+      "home": {
+        "title": "Project Task Submissions",
+        "createLabel": "Create a new Project Task Submission",
+        "createOrEditLabel": "Create or edit a Project Task Submission",
+        "notFound": "No Project Task Submissions found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task Submission {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task Submission"
+      },
+      "submitorId": "Submitor Id",
+      "submitorName": "Submitor Name",
+      "submitorEmail": "Submitor Email",
+      "comment": "Comment",
+      "storeUp": "Store Up",
+      "taskId": "Task Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskSubmission": {
+      "created": "A new Project Task Submission is created with identifier {{ param }}",
+      "updated": "A Project Task Submission is updated with identifier {{ param }}",
+      "deleted": "A Project Task Submission is deleted with identifier {{ param }}"
+    }
+  }
+}

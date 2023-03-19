@@ -1,0 +1,36 @@
+{
+  "microgatewayApp": {
+    "microprocessEventTrigger": {
+      "home": {
+        "title": "Event Triggers",
+        "createLabel": "Create a new Event Trigger",
+        "createOrEditLabel": "Create or edit a Event Trigger",
+        "notFound": "No Event Triggers found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Event Trigger {{ id }}?"
+      },
+      "detail": {
+        "title": "Event Trigger"
+      },
+      "editorId": "Editor Id",
+      "createdAt": "Created At",
+      "name": "Name",
+      "recurrence": "Recurrence",
+      "disabled": "Disabled",
+      "editorName": "Editor Name",
+      "sheduledOn": "Sheduled On",
+      "hour": "Hour",
+      "minute": "Minute",
+      "firstStartedAt": "First Started At",
+      "process": "Process"
+    }
+  },
+  "microprocessApp": {
+    "microprocessEventTrigger": {
+      "created": "A new Event Trigger is created with identifier {{ param }}",
+      "updated": "A Event Trigger is updated with identifier {{ param }}",
+      "deleted": "A Event Trigger is deleted with identifier {{ param }}"
+    }
+  }
+}

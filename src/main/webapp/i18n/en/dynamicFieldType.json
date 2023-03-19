@@ -1,0 +1,13 @@
+{
+  "microgatewayApp": {
+    "DynamicFieldType": {
+      "null": "",
+      "TEXT": "TEXT",
+      "NUMBER": "NUMBER",
+      "BOOLEAN": "BOOLEAN",
+      "DATE": "DATE",
+      "DATETIME": "DATE AND TIME",
+      "FILE": "FILE"
+    }
+  }
+}

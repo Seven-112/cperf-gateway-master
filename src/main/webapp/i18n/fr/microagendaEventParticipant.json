@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microagendaEventParticipant": {
+      "home": {
+        "title": "EventParticipants",
+        "createLabel": "Créer un nouveau Event Participant",
+        "createOrEditLabel": "Créer ou éditer un Event Participant",
+        "notFound": "Aucun Event Participant trouvé"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Event Participant {{ id }} ?"
+      },
+      "detail": {
+        "title": "Event Participant"
+      },
+      "participantId": "Participant Id",
+      "name": "Name",
+      "email": "Email",
+      "required": "Required",
+      "event": "Event"
+    }
+  },
+  "microagandaApp": {
+    "microagendaEventParticipant": {
+      "created": "Un nouveau Event Participant a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Event Participant avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Event Participant avec l'identifiant {{ param }} a été supprimé"
+    }
+  }
+}

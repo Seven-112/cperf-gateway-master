@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprocessCondNode": {
+      "home": {
+        "title": "Cond Nodes",
+        "createLabel": "Create a new Cond Node",
+        "createOrEditLabel": "Create or edit a Cond Node",
+        "notFound": "No Cond Nodes found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Cond Node {{ id }}?"
+      },
+      "detail": {
+        "title": "Cond Node"
+      },
+      "logigramPosX": "Logigram Pos X",
+      "logigramPosY": "Logigram Pos Y",
+      "processId": "Process Id",
+      "modelId": "Model Id"
+    }
+  },
+  "microprocessApp": {
+    "microprocessCondNode": {
+      "created": "A new Cond Node is created with identifier {{ param }}",
+      "updated": "A Cond Node is updated with identifier {{ param }}",
+      "deleted": "A Cond Node is deleted with identifier {{ param }}"
+    }
+  }
+}

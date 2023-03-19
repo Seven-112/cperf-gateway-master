@@ -1,0 +1,30 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskUser": {
+      "home": {
+        "title": "Project Task Users",
+        "createLabel": "Create a new Project Task User",
+        "createOrEditLabel": "Create or edit a Project Task User",
+        "notFound": "No Project Task Users found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task User {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task User"
+      },
+      "userId": "User Id",
+      "userName": "User Name",
+      "userEmail": "User Email",
+      "role": "Role",
+      "taskId": "Task Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskUser": {
+      "created": "A new Project Task User is created with identifier {{ param }}",
+      "updated": "A Project Task User is updated with identifier {{ param }}",
+      "deleted": "A Project Task User is deleted with identifier {{ param }}"
+    }
+  }
+}

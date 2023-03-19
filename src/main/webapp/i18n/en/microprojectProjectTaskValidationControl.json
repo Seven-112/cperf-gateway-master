@@ -1,0 +1,29 @@
+{
+  "microgatewayApp": {
+    "microprojectProjectTaskValidationControl": {
+      "home": {
+        "title": "Project Task Validation Controls",
+        "createLabel": "Create a new Project Task Validation Control",
+        "createOrEditLabel": "Create or edit a Project Task Validation Control",
+        "notFound": "No Project Task Validation Controls found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Project Task Validation Control {{ id }}?"
+      },
+      "detail": {
+        "title": "Project Task Validation Control"
+      },
+      "label": "Label",
+      "required": "Required",
+      "valid": "Valid",
+      "taskId": "Task Id"
+    }
+  },
+  "microprojectApp": {
+    "microprojectProjectTaskValidationControl": {
+      "created": "A new Project Task Validation Control is created with identifier {{ param }}",
+      "updated": "A Project Task Validation Control is updated with identifier {{ param }}",
+      "deleted": "A Project Task Validation Control is deleted with identifier {{ param }}"
+    }
+  }
+}

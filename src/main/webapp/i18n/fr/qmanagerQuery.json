@@ -1,0 +1,33 @@
+{
+  "microgatewayApp": {
+    "qmanagerQuery": {
+      "home": {
+        "title": "Requêtes",
+        "createLabel": "Créer une nouvelle requête",
+        "createOrEditLabel": "Créer ou éditer une requête",
+        "notFound": "Aucune requête trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la requête {{ id }} ?"
+      },
+      "detail": {
+        "title": "Requête"
+      },
+      "name": "Objet",
+      "processId": "Process",
+      "editorId": "Editeur",
+      "shared": "Partagée",
+      "description": "Description",
+      "category": "Catégorie",
+      "clientType": "Type Client",
+      "ponctual": "Ponctuelle"
+    }
+  },
+  "qmanagerApp": {
+    "qmanagerQuery": {
+      "created": "Une nouvelle requête a été créée avec l'identifiant {{ param }}",
+      "updated": "La requête avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La requête avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}

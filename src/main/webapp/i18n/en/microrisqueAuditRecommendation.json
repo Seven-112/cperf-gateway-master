@@ -1,0 +1,39 @@
+{
+  "microgatewayApp": {
+    "microrisqueAuditRecommendation": {
+      "home": {
+        "title": "Recommendations",
+        "createLabel": "Create a new recommendation",
+        "createOrEditLabel": "Create or edit a recommendation",
+        "notFound": "No recommendations found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete recommendation {{ id }}?"
+      },
+      "detail": {
+        "title": "Recommendation"
+      },
+      "auditorId": "Auditor Id",
+      "auditorName": "Auditor",
+      "auditorEmail": "Email Auditor",
+      "auditId": "Audit Id",
+      "status": "Status",
+      "content": "Content",
+      "responsableId": "Responsable Id",
+      "responsableName": "Responsable",
+      "responsableEmail": "Responsable Email",
+      "dateLimit": "Date Limit",
+      "editAt": "Edit At",
+      "executedAt": "Executed At",
+      "entityId": "Entity Id",
+      "entiyName": "Entity"
+    }
+  },
+  "microrisqueApp": {
+    "microrisqueAuditRecommendation": {
+      "created": "A new recommendation is created with identifier {{ param }}",
+      "updated": "A recommendation is updated with identifier {{ param }}",
+      "deleted": "A recommendation is deleted with identifier {{ param }}"
+    }
+  }
+}

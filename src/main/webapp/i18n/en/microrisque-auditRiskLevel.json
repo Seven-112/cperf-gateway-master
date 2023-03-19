@@ -1,0 +1,10 @@
+{
+  "microgatewayApp": {
+    "AuditRiskLevel": {
+      "null": "",
+      "MINOR": "Low",
+      "MEDIUM": "Significant",
+      "MAJOR": "Critical"
+    }
+  }
+}

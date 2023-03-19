@@ -1,0 +1,36 @@
+{
+  "microgatewayApp": {
+    "microprocessEventTrigger": {
+      "home": {
+        "title": "Planifications",
+        "createLabel": "Créer une nouvelle panification",
+        "createOrEditLabel": "Créer ou éditer une planification",
+        "notFound": "Aucune planification trouvée"
+      },
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la planification {{ id }} ?"
+      },
+      "detail": {
+        "title": "Planification"
+      },
+      "editorId": "Editor Id",
+      "createdAt": "Créée le",
+      "name": "Nom",
+      "recurrence": "Récurrence",
+      "disabled": "Désactivée",
+      "editorName": "Editeur",
+      "sheduledOn": "Prochaine date",
+      "hour": "Heure",
+      "minute": "Minutes",
+      "firstStartedAt": "Date de début",
+      "process": "Processus"
+    }
+  },
+  "microprocessApp": {
+    "microprocessEventTrigger": {
+      "created": "Une nouvelle planification a été créé avec l'identifiant {{ param }}",
+      "updated": "La planification avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "La planification avec l'identifiant {{ param }} a été supprimée"
+    }
+  }
+}
